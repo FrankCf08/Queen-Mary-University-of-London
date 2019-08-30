@@ -1,0 +1,46 @@
+Project documentation
+<---- javadoc command: ---->
+F:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+F:\Users\abc\Desktop\OOP\SP6
+-source
+1.8
+-classpath
+F:\Program Files\BlueJ\lib\bluejcore.jar;F:\Program Files\BlueJ\lib\junit-4.8.2.jar;F:\Program Files\BlueJ\lib\userlib\pi4j-core.jar;F:\Program Files\BlueJ\lib\userlib\pi4j-device.jar;F:\Program Files\BlueJ\lib\userlib\pi4j-gpio-extension.jar;F:\Program Files\BlueJ\lib\userlib\pi4j-service.jar;F:\Users\abc\Desktop\OOP\SP6
+-d
+F:\Users\abc\Desktop\OOP\SP6\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+F:\Program Files\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+SP6
+-windowtitle
+SP6
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+F:\Users\abc\Desktop\OOP\SP6/Vehicle.java
+F:\Users\abc\Desktop\OOP\SP6/SportCar.java
+F:\Users\abc\Desktop\OOP\SP6/Van.java
+F:\Users\abc\Desktop\OOP\SP6/ButtonTest.java
+F:\Users\abc\Desktop\OOP\SP6/ButtonVeh.java
+F:\Users\abc\Desktop\OOP\SP6/TestConsumption.java
+<---- end of javadoc command ---->
+Loading source file F:\Users\abc\Desktop\OOP\SP6\Vehicle.java...
+Loading source file F:\Users\abc\Desktop\OOP\SP6\SportCar.java...
+Loading source file F:\Users\abc\Desktop\OOP\SP6\Van.java...
+Loading source file F:\Users\abc\Desktop\OOP\SP6\ButtonTest.java...
+F:\Users\abc\Desktop\OOP\SP6\ButtonTest.java:17: error: '(' or '[' expected
+        veh.addActionListener(new VehFrame);
+                                          ^
+Loading source file F:\Users\abc\Desktop\OOP\SP6\ButtonVeh.java...
+Loading source file F:\Users\abc\Desktop\OOP\SP6\TestConsumption.java...
+1 error

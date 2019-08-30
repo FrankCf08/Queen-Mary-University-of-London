@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=horsepower\ weight\ topspeed
+comment0.target=SportCar(double,\ double,\ double)
+comment1.params=tsp
+comment1.target=void\ setTopspeed(double)
+comment2.params=
+comment2.target=double\ getTopspeed()
+comment3.params=
+comment3.target=double\ fuelConsumption()
+comment4.params=
+comment4.target=void\ details()
+comment5.params=
+comment5.target=void\ printConsumprion()
+numComments=6
