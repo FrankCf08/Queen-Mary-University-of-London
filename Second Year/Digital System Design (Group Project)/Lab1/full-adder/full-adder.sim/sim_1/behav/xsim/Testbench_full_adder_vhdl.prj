@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_3.srcs/sources_1/imports/Lab1 prep. work/full adder/full_adder.vhd" \
+"../../../../project_3.srcs/sources_1/imports/Lab1 prep. work/half adder/half_adder.vhd" \
+"../../../../project_3.srcs/sources_1/imports/Lab1 prep. work/two-input or/twoInputOR.vhd" \
+"../../../../project_3.srcs/sim_1/imports/full adder/full_adder_tb.vhd" \
+
+# Do not sort compile order
+nosort
