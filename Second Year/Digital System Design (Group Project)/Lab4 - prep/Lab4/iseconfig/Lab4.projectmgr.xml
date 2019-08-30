@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab4" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/eight_bit_modulo_counter_async_reset - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|eight_bit_modulo_counter_async_reset.vhd/counter - nbit_count_enable - Behavioral</ClosedNode>
+         <ClosedNode>/eight_bit_modulo_counter_sync_reset - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|eight_bit_modulo_counter_sync_reset.vhd</ClosedNode>
+         <ClosedNode>/four_bit_count - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|four_bit_count.vhd/four_bit_reg - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_up_down_count - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|four_bit_up_down_count.vhd/add_sub - four_bit_adder - Behavioral/fourbitlacadder - four_bit_lac_adder - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_up_down_count - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|four_bit_up_down_count.vhd/add_sub - four_bit_adder - Behavioral/fourbitxor - nbit_xor_control - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_up_down_count - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|four_bit_up_down_count.vhd/reg - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/washer_controller - Behavioral C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|washer_controller.vhd/reg - nbit_reg - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ns_logic - washer_next_state_logic - Behavioral (C:/Users/js317/Desktop/DSD/Lab 4 - prep/Lab4/washer_next_state_logic.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000288000000020000000000000000000000000200000064ffffffff000000810000000300000002000002880000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>ns_logic - washer_next_state_logic - Behavioral (C:/Users/js317/Desktop/DSD/Lab 4 - prep/Lab4/washer_next_state_logic.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000157000000010000000100000000000000000000000064ffffffff000000810000000000000001000001570000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/eight_bit_modulo_counter_sync_reset_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|eight_bit_modulo_counter_sync_reset_tb.vhd/uut - eight_bit_modulo_counter_sync_reset - Behavioral/counter - nbit_count_parallel_load - Behavioral/inc - nbit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/eight_bit_modulo_counter_sync_reset_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|eight_bit_modulo_counter_sync_reset_tb.vhd/uut - eight_bit_modulo_counter_sync_reset - Behavioral/counter - nbit_count_parallel_load - Behavioral/mux - nbit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/eightbit_module_counter_async_reset_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|eightbit_module_counter_async_reset_tb.vhd/uut - eight_bit_modulo_counter_async_reset - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_count_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|four_bit_count_tb.vhd/uut - four_bit_count - Behavioral/four_bit_reg - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_up_down_count_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|four_bit_up_down_count_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_count_enable_tb_vhd - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|nbit_count_enable_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_count_parallel_load_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|nbit_count_parallel_load_tb.vhd/uut - nbit_count_parallel_load - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_incrementer_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|nbit_incrementer_tb.vhd/uut - nbit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_ripple_counter_tb - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|nbit_ripple_counter_tb.vhd/uut - nbit_ripple_counter - Behavioral</ClosedNode>
+         <ClosedNode>/washer_controller_tb_vhd - behavior C:|Users|js317|Desktop|DSD|Lab 4 - prep|Lab4|washer_controller_tb.vhd/uut - washer_controller - Behavioral/reg - nbit_reg - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>reg - nbit_reg - Behavioral (C:/Users/js317/Desktop/DSD/Lab 4 - prep/Lab4/nbit_reg.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >22</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000029c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000029c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>reg - nbit_reg - Behavioral (C:/Users/js317/Desktop/DSD/Lab 4 - prep/Lab4/nbit_reg.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000157000000010000000100000000000000000000000064ffffffff000000810000000000000001000001570000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000157000000010000000100000000000000000000000064ffffffff000000810000000000000001000001570000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

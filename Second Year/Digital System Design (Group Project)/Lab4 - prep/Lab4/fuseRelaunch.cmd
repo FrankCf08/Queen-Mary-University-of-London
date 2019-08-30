@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/js317/Desktop/DSD/Lab 4 - prep/Lab4/washer_controller_tb_vhd_isim_beh.exe" -prj "C:/Users/js317/Desktop/DSD/Lab 4 - prep/Lab4/washer_controller_tb_vhd_beh.prj" "work.washer_controller_tb_vhd" 
