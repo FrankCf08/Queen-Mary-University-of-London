@@ -1,0 +1,10 @@
+London 7500000 UK
+Rome 2700000 Italy
+Paris 6000000 France
+Berlin 4500000 Germany
+Athens 3800000 Greece
+Budapest 1700000 Hungary
+Lisbon 2800000 Portugal
+Madrid 5600000 Spain
+Oslo 1300000 Norway
+Copenhagen 1200000 Denmark

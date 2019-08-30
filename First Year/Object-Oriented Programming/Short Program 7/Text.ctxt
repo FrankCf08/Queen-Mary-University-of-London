@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=l
+comment0.target=Text(java.lang.String)
+comment1.params=newCapital
+comment1.target=void\ setCapital(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getCapital()
+comment3.params=newPopulation
+comment3.target=void\ setPopulation(int)
+comment4.params=
+comment4.target=int\ getPopulation()
+comment5.params=newCountry
+comment5.target=void\ setCountry(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getCountry()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
