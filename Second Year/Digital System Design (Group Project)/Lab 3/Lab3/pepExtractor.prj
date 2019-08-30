@@ -1,0 +1,8 @@
+work	"D_flipflop.vhd"
+work	"nbit_reg.vhd"
+work	"nbit_reg_load_hold.vhd"
+work	"nbit_reg_load_hold_tri.vhd"
+work	"nbit_tri_buff.vhd"
+work	"nbit_two_input_mux.vhd"
+work	"tri_buff.vhd"
+work	"two_to_one_mux.vhd"

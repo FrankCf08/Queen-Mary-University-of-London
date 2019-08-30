@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/projpc1/Desktop/Lab3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/projpc1/Desktop/Lab3/xst"
+elaborate
+-ifn nbit_universal_shiftreg.prj
+-ifmt mixed

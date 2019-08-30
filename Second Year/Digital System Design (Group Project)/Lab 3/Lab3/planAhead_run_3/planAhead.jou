@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Nov 02 10:59:07 2017
+# Process ID: 4116
+# Log file: C:/Users/projpc1/Desktop/Lab3/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/projpc1/Desktop/Lab3/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/projpc1/Desktop/Lab3/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin J11 [get_ports {D_inputs[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {D_inputs[1]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {D_inputs[2]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {D_inputs[3]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {D_inputs[4]}]
+endgroup
+startgroup
+set_property package_pin D16 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin B16 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {Q_outputs[0]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {Q_outputs[1]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {Q_outputs[2]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {Q_outputs[3]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {Q_outputs[4]}]
+endgroup
+startgroup
+set_property package_pin C13 [get_ports Shift_in]
+endgroup
+startgroup
+set_property package_pin D12 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports preset]
+endgroup
+startgroup
+set_property package_pin C10 [get_ports Shift_rotate_bar]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports CLK]
+endgroup
+save_constraints

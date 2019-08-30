@@ -1,0 +1,6 @@
+vhdl work "C:\Users\projpc1\Desktop\Lab3\two_to_one_mux.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\four_input_mux.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\D_flipflop.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\shift_rotate.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\nbit_reg.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\nbit_universal_shiftreg.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/projpc1/Desktop/Lab3/nbit_shiftreg.xst" -ofn "C:/Users/projpc1/Desktop/Lab3/nbit_shiftreg.syr" 

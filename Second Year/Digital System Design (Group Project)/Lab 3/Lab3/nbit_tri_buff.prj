@@ -1,0 +1,2 @@
+vhdl work "tri_buff.vhd"
+vhdl work "nbit_tri_buff.vhd"

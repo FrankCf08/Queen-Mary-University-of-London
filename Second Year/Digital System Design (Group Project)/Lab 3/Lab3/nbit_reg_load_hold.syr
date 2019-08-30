@@ -1,0 +1,384 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: nbit_reg_load_hold.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "nbit_reg_load_hold.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "nbit_reg_load_hold"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : nbit_reg_load_hold
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/two_to_one_mux.vhd" in Library work.
+Architecture behavioral of Entity two_to_one_mux is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg.vhd" in Library work.
+Architecture behavioral of Entity nbit_reg is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_two_input_mux.vhd" in Library work.
+Architecture behavioral of Entity nbit_two_input_mux is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg_load_hold.vhd" in Library work.
+Architecture behavioral of Entity nbit_reg_load_hold is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <nbit_reg_load_hold> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <nbit_reg> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <nbit_two_input_mux> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <two_to_one_mux> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <nbit_reg_load_hold> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_reg_load_hold> analyzed. Unit <nbit_reg_load_hold> generated.
+
+Analyzing generic Entity <nbit_reg> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_reg> analyzed. Unit <nbit_reg> generated.
+
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
+
+Analyzing generic Entity <nbit_two_input_mux> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_two_input_mux> analyzed. Unit <nbit_two_input_mux> generated.
+
+Analyzing Entity <two_to_one_mux> in library <work> (Architecture <behavioral>).
+Entity <two_to_one_mux> analyzed. Unit <two_to_one_mux> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/D_flipflop.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q_bar> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_bar>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <two_to_one_mux>.
+    Related source file is "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/two_to_one_mux.vhd".
+Unit <two_to_one_mux> synthesized.
+
+
+Synthesizing Unit <nbit_reg>.
+    Related source file is "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg.vhd".
+Unit <nbit_reg> synthesized.
+
+
+Synthesizing Unit <nbit_two_input_mux>.
+    Related source file is "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_two_input_mux.vhd".
+Unit <nbit_two_input_mux> synthesized.
+
+
+Synthesizing Unit <nbit_reg_load_hold>.
+    Related source file is "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg_load_hold.vhd".
+WARNING:Xst:646 - Signal <dummy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <nbit_reg_load_hold> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ 1-bit register                                        : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <reg/inst[3].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_reg_load_hold>.
+WARNING:Xst:2677 - Node <reg/inst[2].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_reg_load_hold>.
+WARNING:Xst:2677 - Node <reg/inst[1].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_reg_load_hold>.
+WARNING:Xst:2677 - Node <reg/inst[0].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_reg_load_hold>.
+
+Optimizing unit <nbit_reg_load_hold> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block nbit_reg_load_hold, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : nbit_reg_load_hold.ngr
+Top Level Output File Name         : nbit_reg_load_hold
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# FlipFlops/Latches                : 4
+#      FDCPE                       : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 7
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        0  out of   4656     0%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    190     6%  
+    IOB Flip Flops:                       4
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+preset                             | IBUF                   | 4     |
+reset                              | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.360ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.360ns (Levels of Logic = 1)
+  Source:            load_hold (PAD)
+  Destination:       reg/inst[3].D_flipflop_i/Q (FF)
+  Destination Clock: CLK rising
+
+  Data Path: load_hold to reg/inst[3].D_flipflop_i/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  load_hold_IBUF (load_hold_IBUF)
+     FDCPE:CE                  0.555          reg/inst[3].D_flipflop_i/Q
+    ----------------------------------------
+    Total                      2.360ns (1.773ns logic, 0.587ns route)
+                                       (75.1% logic, 24.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            reg/inst[3].D_flipflop_i/Q (FF)
+  Destination:       Q_outputs<3> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: reg/inst[3].D_flipflop_i/Q to Q_outputs<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            1   0.591   0.420  reg/inst[3].D_flipflop_i/Q (reg/inst[3].D_flipflop_i/Q)
+     OBUF:I->O                 3.272          Q_outputs_3_OBUF (Q_outputs<3>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.92 secs
+ 
+--> 
+
+Total memory usage is 309928 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

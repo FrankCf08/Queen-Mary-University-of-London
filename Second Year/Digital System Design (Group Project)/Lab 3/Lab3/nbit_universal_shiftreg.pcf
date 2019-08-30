@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Nov 02 11:03:11 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "D_inputs<0>" LOCATE = SITE "J11" LEVEL 1;
+COMP "D_inputs<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "Shift_rotate_bar" LOCATE = SITE "C10" LEVEL 1;
+COMP "D_inputs<2>" LOCATE = SITE "H16" LEVEL 1;
+COMP "D_inputs<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "D_inputs<4>" LOCATE = SITE "G12" LEVEL 1;
+COMP "preset" LOCATE = SITE "C12" LEVEL 1;
+COMP "Q_outputs<0>" LOCATE = SITE "C11" LEVEL 1;
+COMP "Q_outputs<1>" LOCATE = SITE "D11" LEVEL 1;
+COMP "Q_outputs<2>" LOCATE = SITE "B11" LEVEL 1;
+COMP "Q_outputs<3>" LOCATE = SITE "A12" LEVEL 1;
+COMP "Q_outputs<4>" LOCATE = SITE "A13" LEVEL 1;
+COMP "F<0>" LOCATE = SITE "D16" LEVEL 1;
+COMP "F<1>" LOCATE = SITE "B16" LEVEL 1;
+COMP "Shift_in" LOCATE = SITE "C13" LEVEL 1;
+COMP "reset" LOCATE = SITE "D12" LEVEL 1;
+COMP "CLK" LOCATE = SITE "A10" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

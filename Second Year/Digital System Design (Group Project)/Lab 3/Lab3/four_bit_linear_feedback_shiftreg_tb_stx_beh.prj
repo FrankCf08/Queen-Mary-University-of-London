@@ -1,0 +1,6 @@
+vhdl isim_temp "D_flipflop.vhd"
+vhdl isim_temp "nbit_reg.vhd"
+vhdl isim_temp "two_input_xor.vhd"
+vhdl isim_temp "nbit_shiftreg.vhd"
+vhdl isim_temp "four_bit_linear_feedback_shiftreg.vhd"
+vhdl isim_temp "four_bit_linear_feedback_shiftreg_tb.vhd"

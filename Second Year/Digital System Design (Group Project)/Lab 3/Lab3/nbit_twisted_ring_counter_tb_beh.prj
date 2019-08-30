@@ -1,0 +1,6 @@
+vhdl work "D_flipflop.vhd"
+vhdl work "nbit_reg.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "nbit_shiftreg.vhd"
+vhdl work "nbit_twisted_ring_counter.vhd"
+vhdl work "nbit_twisted_ring_counter_tb.vhd"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\projpc1\Desktop\Lab3\nbit_reg_load_hold.ncd
+OUTFILE=C:\Users\projpc1\Desktop\Lab3\nbit_reg_load_hold.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4ft256
+WORKINGDIR=C:\Users\projpc1\Desktop\Lab3
+LICENSE=WebPack
+USER_INFO=211416421_0_0_119

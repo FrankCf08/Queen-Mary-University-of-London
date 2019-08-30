@@ -1,0 +1,6 @@
+vhdl work "two_to_one_mux.vhd"
+vhdl work "four_input_mux.vhd"
+vhdl work "D_flipflop.vhd"
+vhdl work "shift_rotate.vhd"
+vhdl work "nbit_reg.vhd"
+vhdl work "nbit_universal_shiftreg.vhd"

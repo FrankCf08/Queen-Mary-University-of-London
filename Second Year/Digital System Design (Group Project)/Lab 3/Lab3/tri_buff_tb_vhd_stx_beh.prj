@@ -1,0 +1,2 @@
+vhdl isim_temp "tri_buff.vhd"
+vhdl isim_temp "tri_buff_tb.vhd"

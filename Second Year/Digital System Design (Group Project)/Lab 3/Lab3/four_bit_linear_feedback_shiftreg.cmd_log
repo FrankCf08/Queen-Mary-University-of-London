@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/projpc1/Desktop/Lab3/four_bit_linear_feedback_shiftreg.xst" -ofn "C:/Users/projpc1/Desktop/Lab3/four_bit_linear_feedback_shiftreg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_linear_feedback_shiftreg.ucf -p xc3s500e-ft256-4 four_bit_linear_feedback_shiftreg.ngc four_bit_linear_feedback_shiftreg.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o four_bit_linear_feedback_shiftreg_map.ncd four_bit_linear_feedback_shiftreg.ngd four_bit_linear_feedback_shiftreg.pcf 
+par -w -intstyle ise -ol high -t 1 four_bit_linear_feedback_shiftreg_map.ncd four_bit_linear_feedback_shiftreg.ncd four_bit_linear_feedback_shiftreg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml four_bit_linear_feedback_shiftreg.twx four_bit_linear_feedback_shiftreg.ncd -o four_bit_linear_feedback_shiftreg.twr four_bit_linear_feedback_shiftreg.pcf -ucf four_bit_linear_feedback_shiftreg.ucf 
+bitgen -intstyle ise -f four_bit_linear_feedback_shiftreg.ut four_bit_linear_feedback_shiftreg.ncd 

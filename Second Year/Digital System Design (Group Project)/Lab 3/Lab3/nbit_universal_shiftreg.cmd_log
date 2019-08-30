@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/projpc1/Desktop/Lab3/nbit_universal_shiftreg.xst" -ofn "C:/Users/projpc1/Desktop/Lab3/nbit_universal_shiftreg.syr" 
+xst -intstyle ise -ifn "C:/Users/projpc1/Desktop/Lab3/nbit_universal_shiftreg.xst" -ofn "C:/Users/projpc1/Desktop/Lab3/nbit_universal_shiftreg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nbit_universal_shiftreg.ucf -p xc3s500e-ft256-4 nbit_universal_shiftreg.ngc nbit_universal_shiftreg.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o nbit_universal_shiftreg_map.ncd nbit_universal_shiftreg.ngd nbit_universal_shiftreg.pcf 
+par -w -intstyle ise -ol high -t 1 nbit_universal_shiftreg_map.ncd nbit_universal_shiftreg.ncd nbit_universal_shiftreg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nbit_universal_shiftreg.twx nbit_universal_shiftreg.ncd -o nbit_universal_shiftreg.twr nbit_universal_shiftreg.pcf -ucf nbit_universal_shiftreg.ucf 
+bitgen -intstyle ise -f nbit_universal_shiftreg.ut nbit_universal_shiftreg.ncd 

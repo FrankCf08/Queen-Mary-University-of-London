@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="Q_outputs">
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Port Id="CLK" Dir="IN"/>
+		<Port Id="reset" Dir="IN"/>
+		<Port Id="preset" Dir="IN"/>
+	</Ifc>
+</Interface>
+

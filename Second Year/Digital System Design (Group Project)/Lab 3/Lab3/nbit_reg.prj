@@ -1,0 +1,2 @@
+vhdl work "D_flipflop.vhd"
+vhdl work "nbit_reg.vhd"

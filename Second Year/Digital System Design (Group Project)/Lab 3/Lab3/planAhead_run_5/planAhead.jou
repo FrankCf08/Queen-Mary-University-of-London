@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Nov 02 11:23:26 2017
+# Process ID: 4148
+# Log file: C:/Users/projpc1/Desktop/Lab3/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/projpc1/Desktop/Lab3/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/projpc1/Desktop/Lab3/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C11 [get_ports {Q_outputs[0]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {Q_outputs[1]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {Q_outputs[2]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {Q_outputs[3]}]
+endgroup
+startgroup
+set_property package_pin D12 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports preset]
+endgroup
+save_constraints
+startgroup
+set_property package_pin A10 [get_ports CLK]
+endgroup
+save_constraints

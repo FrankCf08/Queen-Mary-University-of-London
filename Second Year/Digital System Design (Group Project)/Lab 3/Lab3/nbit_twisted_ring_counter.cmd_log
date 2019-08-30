@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/projpc1/Desktop/Lab3/nbit_twisted_ring_counter.xst" -ofn "C:/Users/projpc1/Desktop/Lab3/nbit_twisted_ring_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nbit_twisted_ring_counter.ucf -p xc3s500e-ft256-4 nbit_twisted_ring_counter.ngc nbit_twisted_ring_counter.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o nbit_twisted_ring_counter_map.ncd nbit_twisted_ring_counter.ngd nbit_twisted_ring_counter.pcf 
+par -w -intstyle ise -ol high -t 1 nbit_twisted_ring_counter_map.ncd nbit_twisted_ring_counter.ncd nbit_twisted_ring_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nbit_twisted_ring_counter.twx nbit_twisted_ring_counter.ncd -o nbit_twisted_ring_counter.twr nbit_twisted_ring_counter.pcf -ucf nbit_twisted_ring_counter.ucf 
+bitgen -intstyle ise -f nbit_twisted_ring_counter.ut nbit_twisted_ring_counter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nbit_twisted_ring_counter.ucf -p xc3s500e-ft256-4 nbit_twisted_ring_counter.ngc nbit_twisted_ring_counter.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o nbit_twisted_ring_counter_map.ncd nbit_twisted_ring_counter.ngd nbit_twisted_ring_counter.pcf 
+par -w -intstyle ise -ol high -t 1 nbit_twisted_ring_counter_map.ncd nbit_twisted_ring_counter.ncd nbit_twisted_ring_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nbit_twisted_ring_counter.twx nbit_twisted_ring_counter.ncd -o nbit_twisted_ring_counter.twr nbit_twisted_ring_counter.pcf -ucf nbit_twisted_ring_counter.ucf 
+bitgen -intstyle ise -f nbit_twisted_ring_counter.ut nbit_twisted_ring_counter.ncd 

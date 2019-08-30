@@ -1,0 +1,6 @@
+vhdl isim_temp "two_to_one_mux.vhd"
+vhdl isim_temp "D_flipflop.vhd"
+vhdl isim_temp "nbit_two_input_mux.vhd"
+vhdl isim_temp "nbit_reg.vhd"
+vhdl isim_temp "nbit_reg_load_hold.vhd"
+vhdl isim_temp "nbit_reg_load_hold_tb.vhd"

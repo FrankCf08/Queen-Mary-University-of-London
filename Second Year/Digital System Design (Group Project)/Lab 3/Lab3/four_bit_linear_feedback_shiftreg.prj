@@ -1,0 +1,5 @@
+vhdl work "D_flipflop.vhd"
+vhdl work "nbit_reg.vhd"
+vhdl work "two_input_xor.vhd"
+vhdl work "nbit_shiftreg.vhd"
+vhdl work "four_bit_linear_feedback_shiftreg.vhd"

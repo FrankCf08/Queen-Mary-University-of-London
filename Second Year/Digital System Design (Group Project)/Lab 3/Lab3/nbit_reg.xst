@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/xst"
+elaborate
+-ifn nbit_reg.prj
+-ifmt mixed

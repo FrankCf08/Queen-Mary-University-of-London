@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/projpc1/Desktop/Lab3/nbit_shiftreg_parallel_load.xst" -ofn "C:/Users/projpc1/Desktop/Lab3/nbit_shiftreg_parallel_load.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nbit_shiftreg_parallel_load.ucf -p xc3s500e-ft256-4 nbit_shiftreg_parallel_load.ngc nbit_shiftreg_parallel_load.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o nbit_shiftreg_parallel_load_map.ncd nbit_shiftreg_parallel_load.ngd nbit_shiftreg_parallel_load.pcf 
+par -w -intstyle ise -ol high -t 1 nbit_shiftreg_parallel_load_map.ncd nbit_shiftreg_parallel_load.ncd nbit_shiftreg_parallel_load.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nbit_shiftreg_parallel_load.twx nbit_shiftreg_parallel_load.ncd -o nbit_shiftreg_parallel_load.twr nbit_shiftreg_parallel_load.pcf -ucf nbit_shiftreg_parallel_load.ucf 
+bitgen -intstyle ise -f nbit_shiftreg_parallel_load.ut nbit_shiftreg_parallel_load.ncd 

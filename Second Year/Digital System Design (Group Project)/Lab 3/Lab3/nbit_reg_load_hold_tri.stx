@@ -1,0 +1,49 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/two_to_one_mux.vhd" in Library work.
+Architecture behavioral of Entity two_to_one_mux is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/tri_buff.vhd" in Library work.
+Architecture behavioral of Entity tri_buff is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg.vhd" in Library work.
+Architecture behavioral of Entity nbit_reg is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_two_input_mux.vhd" in Library work.
+Architecture behavioral of Entity nbit_two_input_mux is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg_load_hold.vhd" in Library work.
+Architecture behavioral of Entity nbit_reg_load_hold is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_tri_buff.vhd" in Library work.
+Architecture behavioral of Entity nbit_tri_buff is up to date.
+Compiling vhdl file "C:/Users/Jayant/Desktop/Projects/QMUL/ECS615U/Lab 3 - Prep/Lab3/nbit_reg_load_hold_tri.vhd" in Library work.
+Entity <nbit_reg_load_hold_tri> compiled.
+Entity <nbit_reg_load_hold_tri> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> 
+
+Total memory usage is 273536 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

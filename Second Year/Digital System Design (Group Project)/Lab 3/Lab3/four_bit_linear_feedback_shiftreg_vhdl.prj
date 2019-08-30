@@ -1,0 +1,5 @@
+vhdl work "C:\Users\projpc1\Desktop\Lab3\D_flipflop.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\nbit_reg.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\two_input_xor.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\nbit_shiftreg.vhd"
+vhdl work "C:\Users\projpc1\Desktop\Lab3\four_bit_linear_feedback_shiftreg.vhd"

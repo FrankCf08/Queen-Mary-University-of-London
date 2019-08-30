@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab3" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|four_bit_linear_feedback_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg - Behavioral C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|four_bit_linear_feedback_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_load_hold.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_load_hold_tri.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri - Behavioral C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_reg_load_hold_tri.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_reg_load_hold_tri.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_reg_load_hold_tri.vhd/loadholdreg - nbit_reg_load_hold - Behavioral/mux - nbit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_reg_load_hold_tri.vhd/loadholdreg - nbit_reg_load_hold - Behavioral/reg - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_shiftreg - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_shiftreg.vhd/reg - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_shiftreg_parallel_load.vhd</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load - Behavioral C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_shiftreg_parallel_load.vhd</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_shiftreg_parallel_load.vhd</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_shiftreg_parallel_load.vhd/mux - nbit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_tri_buff - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_tri_buff.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_twisted_ring_counter.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter - Behavioral C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_twisted_ring_counter.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_twisted_ring_counter.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_universal_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg - Behavioral C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_universal_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_universal_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_universal_shiftreg.vhd/reg - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg - Behavioral C:|Users|projpc1|Desktop|Lab3|nbit_universal_shiftreg.vhd/shiftrotate - shift_rotate - Behavioral</ClosedNode>
+         <ClosedNode>/shift_rotate - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|shift_rotate.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>four_bit_linear_feedback_shiftreg - Behavioral (C:/Users/projpc1/Desktop/Lab3/four_bit_linear_feedback_shiftreg.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000212000000020000000000000000000000000200000064ffffffff000000810000000300000002000002120000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>four_bit_linear_feedback_shiftreg - Behavioral (C:/Users/projpc1/Desktop/Lab3/four_bit_linear_feedback_shiftreg.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>D_flipflop.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/d_flipflop_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|d_flipflop_tb.vhd</ClosedNode>
+         <ClosedNode>/d_flipflop_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|d_flipflop_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|four_bit_linear_feedback_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|four_bit_linear_feedback_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold - Behavioral C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_load_hold.vhd/mux - nbit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_load_hold_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_reg_load_hold_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_load_hold_tri_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_reg_load_hold_tri_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_load_hold_tri_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_reg_load_hold_tri_tb.vhd/uut - nbit_reg_load_hold_tri - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_reg_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_reg_tb.vhd/uut - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_reg_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_reg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_reg_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_reg_tb.vhd/uut - nbit_reg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_shiftreg_parallel_load_tb.vhd/uut - nbit_shiftreg_parallel_load - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_shiftreg_parallel_load_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_parallel_load_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_shiftreg_parallel_load_tb.vhd/uut - nbit_shiftreg_parallel_load - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_tb_vhd - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_tb_vhd - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_tri_buff_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_tri_buff_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_tri_buff_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_tri_buff_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_tri_buff_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_tri_buff_tb.vhd/uut - nbit_tri_buff - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_twisted_ring_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_twisted_ring_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_twisted_ring_counter_tb.vhd/uut - nbit_twisted_ring_counter - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg_tb - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|nbit_universal_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_universal_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg_tb - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|nbit_universal_shiftreg_tb.vhd/uut - nbit_universal_shiftreg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg_tb - behavior C:|Users|projpc1|Desktop|Lab3|nbit_universal_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/t_flipflop_tb_vhd - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|t_flipflop_tb.vhd</ClosedNode>
+         <ClosedNode>/t_flipflop_tb_vhd - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|t_flipflop_tb.vhd</ClosedNode>
+         <ClosedNode>/tri_buff_tb_vhd - behavior C:|Users|Jayant|Desktop|Projects|QMUL|ECS615U|Lab 3 - Prep|Lab3|tri_buff_tb.vhd</ClosedNode>
+         <ClosedNode>/tri_buff_tb_vhd - behavior C:|Users|js317|Desktop|DSD|Lab 3 - prep|Lab3|tri_buff_tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>four_bit_linear_feedback_shiftreg_tb - behavior (C:/Users/projpc1/Desktop/Lab3/four_bit_linear_feedback_shiftreg_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000233000000020000000000000000000000000200000064ffffffff000000810000000300000002000002330000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>four_bit_linear_feedback_shiftreg_tb - behavior (C:/Users/projpc1/Desktop/Lab3/four_bit_linear_feedback_shiftreg_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>
