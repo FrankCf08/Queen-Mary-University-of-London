@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=newName\ newattackDamage\ newHealth
+comment0.target=Character(java.lang.String,\ double,\ double)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=newName
+comment2.target=void\ setName(java.lang.String)
+comment3.params=newattackDamage
+comment3.target=void\ setAttackdamage(double)
+comment4.params=
+comment4.target=double\ getAttackdamage()
+comment5.params=newHealth
+comment5.target=void\ setHealth(double)
+comment6.params=
+comment6.target=double\ getHealth()
+comment7.params=
+comment7.target=void\ details()
+numComments=8
