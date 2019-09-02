@@ -1,0 +1,45 @@
+week3 - Lab2
+Program 3 : palindromeChecher
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	DEFINE - Setting #define Limit 5
+	PROTOTYPE FUNCTION - declare them before main readingLinesandSpaces,countPrinting
+	
+	MAIN -  Declaring main int function
+		CALL function palindromeWord()
+		RETURN
+		
+	FUNCTION: palindromeWord() is executed
+		  Declaring array char c with LIMIT as a length
+		  Declaring int variable j
+		  Declaring char variavle d
+
+		  PRINT statement "Enter word"
+		  Initializing d variable using getchar()
+
+
+		  IF: statement is TRUE ((d==EOF) || (d==' ') || (d == '\n'))
+		      PRINT statement "That's not a word"
+     		      END IF STATEMENT
+
+		  ELSE:  
+			Initializing first element of the array c with first input character
+
+			FOR LOOP: repeat condition until statement is reached j<5
+				  Storing characters in the array c   
+				  END FOR LOOP
+			IF: statement if TRUE ((c[0] == c[4])&& (c[1] == c[3]))
+			    PRINT  "It's palindrome"
+			    END IF STATEMENT
+
+			ELSE :
+			  	PRINT "It's not palindrome"
+				END ELSE STATEMENT
+
+		  END ELSE STATEMENT
+
+	END FUNCTION	
+  
+END PROGRAM

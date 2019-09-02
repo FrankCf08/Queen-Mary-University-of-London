@@ -1,0 +1,41 @@
+week3 - Lab2
+Program 1 : count_capitalLetters
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	PROTOTYPE FUNCTION - declare them before main readingLinesandSpaces,countPrinting
+	
+	MAIN -  Declaring main int function
+		CALL function readingLinesandSpaces()
+		RETURN
+		
+	FUNCTION: readingLinesandSpaces() is executed
+		  Declaring variable char c
+		  Declaring and Initializing x =0, y=0, z=0;
+
+		  PRINT statement "Enter text"
+
+		  WHILE LOOP: Repeat while statement is true  (c=getchar()) != EOF
+
+			      IF: statement is TRUE (c is less or equal 'A' or c is greater or equals 'Z')
+				   x++
+				   END IF STATEMENT
+
+			      ELSE IF:  statement is TRUE (c equals ' ' or '\t')
+					y++  
+					END ELSE IF STATEMENT
+
+			      ELSE IF:  statement is TRUE ( c equals  '\n')
+					z++  
+					END ELSE IF STATEMENT
+		  END WHILE LOOP
+
+		  FUNCTION: countPrinting() is called, passing variables x,y,z
+	END FUNCTION	
+	
+	FUNCTION: countPrinting() is excecuted with the parameters x,y and z
+		  PRINT "Number of capital letters = x"
+		  PRINT "Number of Spaces = y and Number of lines = z"   
+		  END FUNCTION	    
+END PROGRAM

@@ -1,0 +1,34 @@
+week3 - Lab2
+Program 1 : count_spacesAndNewLines
+
+START PROGRAM
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	PROTOTYPE FUNCTION - declare them before main readingLinesandSpaces,countPrinting
+	MAIN -  Declaring main int function
+		CALL function readingLinesandSpaces()
+		RETURN
+		
+	FUNCTION: readingLinesandSpaces() is called 
+		  Declaring variable char c
+		  Declaring and Initializing x =0, y=0
+		  PRINT statement "Enter text"
+		  initialize c getting the value getchar()
+
+		  WHILE LOOP: Repeat until statement is true  (c=getchar()) != EOF
+
+			      IF: statement is TRUE (c equals ' ' or '\t')
+				   x++
+				   END IF STATEMENT
+
+			      ELSE IF:  statement is TRUE ( c equals  '\n')
+					y++  
+					END ELSE IF STATEMENT
+		  END WHILE LOOP
+
+		  FUNCTION: countPrinting() is called
+	END FUNCTION	
+	
+	FUNCTION: countPrinting() is excecuted with the parameters x and y
+		  PRINT "Number of Spaces = x and Number of lines = y"   
+		  END FUNCTION	    
+END PROGRAM

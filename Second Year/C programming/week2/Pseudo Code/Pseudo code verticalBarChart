@@ -1,0 +1,64 @@
+week3 - Lab2
+Program 4 : verticalBarChart
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	DEFINE - Setting #define Limit 10
+	PROTOTYPE FUNCTIONS - declaring them before main verticalBarChart and printStarts
+	
+	MAIN -  Declaring main int function
+		Declare int array number with length LIMIT
+		CALL function verticalBarChart and passing as a parameter the array number
+		CALL function printStarts and passing as a parameter the array number
+		RETURN
+		
+	FUNCTION: verticalBarChart() is executed
+		  Declaring int variables i, greatNumber
+
+		  FOR LOOP: repeat body until statement is reached i<LIMIT
+		  	    PRINT "Enter number"
+		  	    Using function scanf() to store the input value in my array number
+
+	   		    IF: statement is TRUE (number[i] < 0)
+		      		PRINT statement "Enter only positive numbers"
+				DECREASE i--
+     		      		END IF STATEMENT
+
+		  END FOOR LOOP
+
+	END FUNCTION
+
+	FUNCTION: printStarts() is executed
+		  Declaring int variables i,j,k,z,largest
+		  Declaring character variables s = '*',sp = ' ',nl = '\n'
+		  Initializing variable largest =  number [0]
+		  
+		  FOR LOOP: repeat body until statement is reached k<LIMIT  	
+			    IF: statement if TRUE (largest<number[k])
+			    	largest = number[k]
+			        END IF STATEMENT
+		  END FOOR LOOP
+
+		  PRINT new line (\n)
+
+		  FOR LOOP: repeat body until statement is reached i>=1     
+			    FOR LOOP: repeat body until statement is reached j<LIMIT 	
+			    	      IF: statement if TRUE (i<=number[j])
+			    		  PRINT start ('*')
+			        	  END IF STATEMENT
+				      ELSE :
+			  		  PRINT space (' ')
+					  END ELSE STATEMENT
+
+		  	    END FOR LOOP
+			    PRINT new line (\n)
+
+		  END FOOR LOOP
+		
+		  FOR LOOP: repeat body until statement is reached z<LIMIT
+			    PRINT numbers of the array
+		  END FOR LOOP
+
+	END FUNCTION	
+END PROGRAM
