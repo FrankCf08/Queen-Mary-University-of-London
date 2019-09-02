@@ -1,0 +1,21 @@
+# Assembler debug file for MCU 8051 IDE v1.4.7
+# Used assembler: MCU 8051 IDE
+# Date: 10/23/2017
+26EC9367BAE594CAC36F9CF1BD904012 "/homes/fecf3/Desktop/Second Year/Microprocessor/week5/week5.asm" 
+0 2 0 144 3 0
+0 3 3 116 255
+0 5 5 245 144
+0 6 7 229 144
+0 8 9 147
+0 10 10 245 160
+0 12 12 128 249
+0 18 768 0
+0 18 769 1
+0 18 770 4
+0 18 771 9
+0 18 772 16
+0 18 773 25
+0 18 774 36
+0 18 775 49
+0 18 776 64
+0 18 777 81

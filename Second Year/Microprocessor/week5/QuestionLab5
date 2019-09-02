@@ -1,0 +1,58 @@
+Lab 5
+
+1. Provide your C code:
+
+#include <stdio.h>
+ 
+int main()
+{
+	int XQURE_TABLE [] = {0,1,4,9,16,25,36,49,64,81};// declaring and initializing 
+	int A = 255;// declaring an Initializing A; A =255
+	int input; // declaring input 
+	while (1) {
+		printf("Enter input:\t");
+		input = getchar();//getting number
+		input-='0';// it only takes the first int digit
+		while (getchar() != '\n');// It omits the enter
+		if (input >=0 && input <= 9){// checking if the input is and integer between 0 and 9
+			A = XQURE_TABLE[input];// Getting the value from the array
+			printf("Squared number is : %i\n",A);// print value if it found
+		}//Enf if statement
+		else{
+			printf("Error, try again..\n");// printing error if it is not in there
+		}// End else statement	
+	}//End of while loop
+  return 0;
+}// End main function
+
+2. Is your program safe from memory errors, i.e., does it handle all possible user inputs
+without crashing?
+
+The code written in c programming detects error such as if it has been inputed a number greater than 9 and lower than 0, it will only consider the first digit of the integer value inputed due to the function -='0'. Furthermore, it will not consider char variables inputed from the keyboard.
+
+QUESTION 2
+(a) Explain the purpose of the following registers in the 8051: the data pointer register, the
+program counter, the accumulator, and register R0.
+
+1.The data pointer register(DPTR): 
+				It is used to point to data memory or external code by using a number of commands. It is the only user-accessible of 16-bit (2 bytes) register. For instance, the instruction used is MOVC A, @A+DPTR, which it will get a value from the data base and store it in the accummulator.
+
+2.the program counter :
+			It is a 2-byte address, which points to the address of the next instruction to be executed.
+
+3.The accumulator: 
+		 	It is an 8-bit (1 byte) general register. It us used to accumulate the results of a large number of instructions. For instance, if it is needed to do operations such as addition, substraction, multiplicaion, division, etc. They can be made by using the accumulator (ADD A, R1 ; add register to the accumulator).
+
+4. Register R0: 
+		It is an 8-bit(1 byte) register. It is used as an auxillary register in many operations, it is also used to temporarily store values. For instances, MOV A, R5(Mov the value of R5 into the accumulator).
+
+(b) Figure 1 shows the internal architecture of the 8051’s Port 1, Port 2 and Port 3. Before
+using a port as an input it is necessary to write a ‘1’ to an 8051 port pin. Explain what
+the effect of this write is, why it is important, and what can happen if this is not done.
+
+It will damage the transistor, it will heat up
+Q' always set to 0 (stops the flow of current)
+Q = D = 1;
+
+
+http://world4tronix.blogspot.co.uk/2013/08/io-ports-microcontroller-8051.html
