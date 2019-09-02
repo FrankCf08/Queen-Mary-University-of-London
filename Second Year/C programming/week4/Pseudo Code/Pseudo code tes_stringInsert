@@ -1,0 +1,52 @@
+week5 - Lab4
+Program 4 : test_stringInsert
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing standard string library #include <string.h>
+	DEFINE - Setting #define SIZE 50
+
+	STRUCT -  Declaring the struc function Array
+		  Declaring the char array new with length SIZE
+
+	STATIC STRUCT - Declaring the name of my struct to use in whole program
+
+	PROTOTYPE FUNCTIONS - declaring them before main stringInsert(char str[SIZE], char c, int position)
+	
+	MAIN -  Declaring main int function
+		Declaring an array a with length SIZE
+		Declaring int variable p
+		CALL function stringInsert() and passing all variables declare before as arguments
+		RETURN
+		
+	FUNCTION: stringInsert() is executed
+		  Declaring int variables i,l
+		  PRINT "Type word"
+		  FGETS: gets the value input and stores it in my array a.new
+		  STRLEN(): using it to get the size of the word input and sore in l
+		  PRINT "Type position to be inserted"
+		  SCANF(): stores the value input using the pointer &position
+		  DECREASE position by 1 - to get exactly the place where it is wanted to insert the character
+		  getchar() -  to chat the enter pressed
+		  PRINT "Character to be added"
+		  SCANF(): getting the character to be added
+		  STRCPY - copying all the array a.new into my array str
+
+		  FOR LOOP:     repeat body until statement is reached i>0
+
+				IF: statement is TRUE (i > position)
+					stores the value a.new[i] = a.new[i-1]
+					END IF STATEMENT
+				ELSE IF: statement is TRUE (i == position)
+					stores the value such as a.new[i] = c;
+					END ELSE STATEMENT
+
+        	  END FOR LOOP
+		  
+		  PRINT "Original word = str"
+		  PRINT "Modified word = a.new"  
+
+	END FUNCTION
+	
+END PROGRAM

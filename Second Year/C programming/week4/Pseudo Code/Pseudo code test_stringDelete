@@ -1,0 +1,55 @@
+week5 - Lab4
+Program 3 : test_stringDelete
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing standard string library #include <string.h>
+	DEFINE - Setting #define SIZE 20
+
+	STRUCT -  Declaring the struc function Word
+		  Declaring the char array c with length SIZE
+		  Declaring int num
+		  Declaring the char array d with length SIZE
+
+	STATIC STRUCT - Declaring the name of my struct to use in whole program
+
+	PROTOTYPE FUNCTIONS - declaring them before main getWordNum and stringDelete
+	
+	MAIN -  Declaring main int function
+		Declaring int variable len
+		Initializing len by calling the fucntion getWordNum
+		CALL function stringDelete(len)
+		RETURN
+		
+	FUNCTION: getWordNum() is executed
+		  Declaring int variables l
+		  PRINT "Type word"
+		  FGETS: gets the value input and stores it in my array w.c
+		  STRLEN(): using it to get the size of the word input
+		  PRINT "Type position to be deleted"
+		  SCANF(): stores the value input using the pointer &w.num
+		  RETURN l
+
+	FUNCTION: stringDelete() is executed
+		  Declaring int variable i
+		  STRCPY() :copying all char array in w,c into w.d
+		  DECREASING w.num by 1 - to obtain the exactly position 
+		  
+		  FOR LOOP:     repeat body until statement is reached i<x
+
+				IF: statement is TRUE (i < w.num)
+					stores the value w.d[i] = w.d[i]
+					END IF STATEMENT
+				ELSE :
+					stores the value such as w.d[i] = w.d[i+1];
+					END ELSE STATEMENT
+
+        	  END FOR LOOP
+		  
+		  PRINT "Original word = w.c"
+		  PRINT "Modified word = w.d"  
+
+	END FUNCTION
+	
+END PROGRAM

@@ -1,0 +1,82 @@
+week5 - Lab4
+Program 2 : uniSports
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	DEFINE - Setting #define MAXCHAR 50
+	DEFINE - Setting #define ROUNDS 10
+	DEFINE - Setting #define W 3
+	DEFINE - Setting #define D 1
+
+	STRUCT -  Declaring the struc function Results
+		  Declaring the char array team1 with length MACHAR
+		  Declaring int score1
+		  Declaring the char array team2 with length MACHAR
+		  Declaring int score2
+
+	STATIC STRUCT - Declaring the name of my struct to use in whole program
+
+	PROTOTYPE FUNCTIONS - declaring them before main readingFile and printPoints
+	
+	MAIN -  Declaring main int function
+		CALL function readingFile()
+		CALL function printPoints()
+		RETURN
+		
+	FUNCTION: readingFile() is executed
+		  Declaring int variables i
+
+		  DO: repeat body until statement at least once
+		  	    SCANF() stores the input value using the pointer of result[i].team1,&result[i].score1,result[i].team2,&result[i].score2
+		  WHILE : repeat body until false when ((getchar()!= EOF)&&i<ROUNDS)
+		  END WHILE LOOP
+		  END DO
+
+	END FUNCTION
+
+	FUNCTION: printPoints() is executed
+		  Declaring and Initializing all int variables hw,hd,hl,aw,ad,al,gf,ga,pts,i = 0
+		  
+		  FOR LOOP:     repeat body until statement is reached i<ROUNDS
+				
+				IF: statement is TRUE (result[i].team1[0] == 'Q')
+					IF: statement is TRUE (result[i].score1 > result[i].score2)
+					    INCREASE hw
+					    END IF STATEMENT
+					ELSE IF: statement is TRUE (result[i].score1 < result[i].score2)
+					    INCREASE hl
+					    END ELSE IF STATEMENT
+					ELSE :
+					    INCREASE hd
+					    END ELSE STATEMENT
+
+					ADDING gf with result.score1 and storing back to gf
+					ADDING ga with result.score2 and storing back to ga
+
+				END IF STATEMENT
+
+				ELSE IF: statement is TRUE (result[i].team2[0] == 'Q')
+					IF: statement is TRUE (result[i].score1 < result[i].score2)
+					    INCREASE aw
+					    END IF STATEMENT
+					ELSE IF: statement is TRUE (result[i].score1 > result[i].score2)
+					    INCREASE al
+					    END ELSE IF STATEMENT
+					ELSE :
+					    INCREASE ad
+					    END ELSE STATEMENT
+			    	
+					ADDING gf with result.score2 and storing back to gf
+					ADDING ga with result.score1 and storing back to ga
+
+				END ELSE IF STATEMENT
+
+        	    END FOR LOOP
+		
+		    CALCULATE pts by using this formula: W*(hw+aw)+D*(hd+ad)
+		    PRINT table with all data
+
+	END FUNCTION
+	
+END PROGRAM

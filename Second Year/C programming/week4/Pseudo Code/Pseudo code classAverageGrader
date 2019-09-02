@@ -1,0 +1,60 @@
+week5 - Lab4
+Program 1 : verticalBarChart
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	DEFINE - Setting #define Limit 10
+	DEFINE - Setting #define NUMSTD 2
+	DEFINE - Setting #define MAXMARKS 3
+	STRUCT -  Declaring the struc function as Students
+		  Declaring the char array name with length SIZE
+		  Declaring long int idnum
+		  Declaring float array marks with length MAXMARKS
+
+	STATIC STRUCT - Declaring the name of my struct to use in whole program
+
+	PROTOTYPE FUNCTIONS - declaring them before main creatingStudent and printDetails
+	
+	MAIN -  Declaring main int function
+		CALL function vcreatingStudent()
+		CALL function printDetails()
+		RETURN
+		
+	FUNCTION: creatingStudent() is executed
+		  Declaring int variables i, j
+
+		  FOR LOOP: repeat body until statement is reached i<NUMSTD
+		  	    PRINT "Enter Student"
+		  	    SCANF() stores the input value using the pointer of std.name
+		  	    PRINT "Enter student id number"
+		  	    SCANF() stores the input value using the pointer of std.idnum
+
+	   		    FOR LOOP:   repeat body until statement is reached j<MAXMARKS
+		  	    		PRINT "Enter mark"
+		  	    		SCANF() stores the input value using the pointer of std.marks[j]
+					END FOOR LOOP
+		  END FOOR LOOP
+
+	END FUNCTION
+
+	FUNCTION: printDetails() is executed
+		  Declaring int variables i,j
+		  Declaring and initializing float sum =0
+		  PRINT "List of stundets"
+		  
+		  FOR LOOP:     repeat body until statement is reached i<NUMSTD
+				PRINT "std.name and std.idnum"  	
+			    	
+			    	FOR LOOP: repeat body until statement is reached j<MAXMARKS	
+			    	      	  sum is added with std.marks[j] and stored in it again
+			    		  PRINT "std.marks[j]"
+			        	  END FOR LOOP
+				sum is divided between 3
+				PRINT "sum"
+				set sum = 0
+        	  END FOR LOOP
+
+	END FUNCTION
+	
+END PROGRAM
