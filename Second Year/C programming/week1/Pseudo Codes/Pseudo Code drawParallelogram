@@ -1,0 +1,48 @@
+week2 - Lab1
+Program2 : drawParallelogram
+
+START PROGRAM
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	PROTOTYPE FUNCTION - declare them before main [drawParallelogram(char x,char y)]
+	MAIN -  Declaring main int function
+		Declaring and Initializing char s = '*'
+		Declaring and Initializing char sp = ' '
+		Calling function drawParallelogram and passing the variables s and sp
+		
+	FUNCTION: Function called passing char parameters x and y
+		  Declaring and Initializing variable triangleSide = 5
+		  Declaring and Initializing squareSide = triangleSide -1;
+		  Declaring vairbales i,j,z,w,u,t
+
+		  FOR LOOP: Repeat until statement is reached i<triangleSide
+
+			    FOR LOOP: Repeat until statement is reached j<i
+				      PRINT x's number of starts ('*')
+				      END FOR LOOP
+			    PRINT line (\n)
+		  END FOR LOOP
+
+		  FOR LOOP: Repeat until statement is reached j<squareSide
+
+			    FOR LOOP: Repeat until statement is reached z<4
+				      PRINT  x's number of starts ('*')
+				      END FOR LOOP
+			    PRINT line (\n)
+		  END FOR LOOP
+
+		  FOR LOOP: Repeat until statement is reached z<4
+
+			    FOR LOOP: Repeat until statement is reached w<z
+				      PRINT y's number of spaces (' ')
+				      END FOR LOOP
+
+			    DECREASE : variable triangleSide --
+				
+		            FOR LOOP : Repeat until statement is reached u<triangleSide
+	      		               PRINT  x's number of starts ('*')
+				       END FOR LOOP
+			    PRINT line (\n)
+
+		  END FOR LOOP
+	RETURN
+END PROGRAM

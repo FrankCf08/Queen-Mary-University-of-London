@@ -1,0 +1,20 @@
+week2 - Lab1
+Program1 : drawSquare
+
+START PROGRAM
+	INCLUDE - Importing standard input/outp library
+	MAIN - Declaring main int function
+		Declaring variables i,j
+		Printing an empthy line
+	FOR LOOP: Repeat until statement is reached i<4
+		PRINT  a line after a loop is completed (\n)
+
+		FOR LOOP: Repeat until statement is reached j<4
+			  PRINT  x's number of starts ('*')
+	RETURN
+END PROGRAM
+	
+		
+	
+		
+

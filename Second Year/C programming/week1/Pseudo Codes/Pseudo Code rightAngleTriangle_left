@@ -1,0 +1,22 @@
+week2 - Lab1
+Program2 : rightAngleTriangle_left
+
+START PROGRAM
+	INCLUDE - Importing standard input/outp library
+	PROTOTYPE FUNCTION - declare them before main [drawTriangle(char x)]
+	MAIN -  Declaring main int function
+		Declaring and Initializing char a = '*'
+		Calling prototype function drawTriangle drawTriangle()
+		
+	FUNCTION: Function called passing a char parameter
+		  Declaring variables to use i,j
+
+		  FOR LOOP: Repeat until statement is reached  i<5
+			    PRINT  a line after a loop is completed (\n)
+
+			    FOR LOOP: Repeat until statement is reached  j<i
+				      PRINT  j's number of starts ('*')
+				      END FOR LOOP
+		  END FOR LOOP
+	RETURN
+END PROGRAM
