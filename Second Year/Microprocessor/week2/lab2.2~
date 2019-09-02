@@ -1,0 +1,23 @@
+ORG 0H
+START:	CLR A;
+	MOV R0,#0H
+	MOV R1,#0H
+	MOV R2,#05
+MORE:	LCALL DELAY   ; time delay to wait for next input value
+	ADD A,P1
+	MOV R0,A 
+	CLR A
+	ADDC A,R1
+	MOV R1,A
+	MOV A,R0
+	
+	DJNZ R2, MORE
+
+	MOV P2,R0
+	MOV P3,R1
+
+	SJMP START
+ORG 300H    ; put the subroutine at 300H
+DELAY:  MOV R5, #05H  ; R5 = 255
+AGAIN:  DJNZ  R5, AGAIN ; repeat until R5 is zero
+	RET     ; return to caller (when R5 = 0)
