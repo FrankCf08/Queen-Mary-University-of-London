@@ -1,0 +1,50 @@
+week 3 - Lab3
+Program 3 : Shapes of Triangle-shapes
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing library #include "shapes.h"
+	EXTERN - char c
+			
+	FUNCTION: topTriangle() is excecuted having int parameter size and char parameter y
+		  Declaring int variable i,j
+
+		  FOR LOOP: Repeat until statement is reached i<size
+			    FOR LOOP: Repeat until statement is reached j<i
+				      PRINT j's number of starts -y- ('*')
+				      END FOR LOOP
+			    PRINT  new line (\n)
+		  END FOR LOOP
+	END FUNCTION
+
+	FUNCTION: square() is excecuted having int parameter size and char parameter y
+		  Declaring int variable j,z
+
+		  FOR LOOP: Repeat until statement is reached j<size
+			    FOR LOOP: Repeat until statement is reached z<4
+				      PRINT  z's number of starts -y- ('*')
+				      END FOR LOOP
+			    PRINT line (\n)
+		  END FOR LOOP
+	END FUNCTION
+
+	FUNCTION: bottomTriangle() is excecuted having int parameter size and char parameter y
+		  Declaring int variable z,w,u
+
+		  FOR LOOP: Repeat until statement is reached z<4
+
+			    FOR LOOP: Repeat until statement is reached w<z
+				      PRINT w's number of spaces (' ')
+				      END FOR LOOP
+
+			    DECREASE : variable size --
+				
+		            FOR LOOP : Repeat until statement is reached u<size
+	      		               PRINT  u's number of starts ('*')
+				       END FOR LOOP
+			    PRINT line (\n)
+
+		  END FOR LOOP
+	RETURN
+END PROGRAM

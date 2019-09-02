@@ -1,0 +1,34 @@
+week 3 - Lab3
+Program 4 : Average Grader
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	DEFINE - MACRO STUDENTS 3
+	DEFINE - MACRO MARKS 4
+			
+	PROTOTYPE FUNCTIONS - declaring them before main average
+	
+	MAIN -  Declaring main int function
+		Declaring a double arrat std_grades[STUDENTS][MARKS]
+		CALL function average() and passing the arrat std_grades in its parameter
+		RETURN
+		
+	FUNCTION: average() is executed, having as a parameter the array std_grades
+		  Declaring int variables i, j
+		  Declaring and initializing float variables sum =0
+
+		  FOR LOOP: Repeat until statement is reached i<STUDENTS
+			    PRINT "Grades for student + i"
+			    FOR LOOP: Repeat until statement is reached j<MARKS
+				      Variable sum is added with the values of the array with indexes [i][j]
+				      PRINT "grade"
+				      END FOR LOOP
+			    PRINT  "Student average = sum/float"
+			    sum is set to zero
+
+		  END FOR LOOP
+
+	END FUNCTION
+
+END PROGRAM

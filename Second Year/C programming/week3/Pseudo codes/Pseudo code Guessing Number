@@ -1,0 +1,42 @@
+week4 - Lab3
+Program 1 : Guessing Number
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing library to use rand() function #include <stdio.h>
+	DEFINE - Setting #define MAXNUMBER 10
+
+	PROTOTYPE FUNCTIONS - declaring them before main guessNumber and printStatement
+	
+	MAIN -  Declaring main int function
+		CALL function guessNumber()
+		RETURN
+		
+	FUNCTION: guessNumber() is executed
+		  Declaring int variables i, random
+		  Initializing random variable as rand()%MAXNUMBER
+		  PRINT "Guess a number"
+		  SCANF store value in i
+
+		  IF: statement is TRUE (i>=0&&i<=10)
+		      		CALL printStatement function and passing variables i and random
+     		      		END IF STATEMENT
+
+		  ELSE :
+			 PRINT "Sorry wron input"
+			 END ELSE STATEMENT
+
+	END FUNCTION
+
+	FUNCTION: printStatement(int x, int rand) is executed 
+
+		  IF: statement is TRUE (x!=rand)
+		      PRINT "Wrong guess"
+     		      END IF STATEMENT
+
+		  ELSE :
+			 PRINT "Well done"
+			 END ELSE STATEMENT
+	END FUNCTION	
+END PROGRAM

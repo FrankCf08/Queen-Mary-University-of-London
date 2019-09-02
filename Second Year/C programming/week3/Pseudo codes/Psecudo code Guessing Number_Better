@@ -1,0 +1,63 @@
+week4 - Lab3
+Program 1 : Guessing Number
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing library to use rand() function #include <stdio.h>
+	DEFINE - Setting #define MAXNUMBER 10
+
+	PROTOTYPE FUNCTIONS - declaring them before main guessNumber, printStatement and chooseNumber
+	
+	MAIN -  Declaring main int function
+		CALL function guessNumber()
+		RETURN
+		
+	FUNCTION: guessNumber() is executed
+		  Declaring int variables i, random
+		  Initializing random variable calling the function getNumber()
+		  CALL function chooseNumber() and passing the variable random in its parameter
+
+	END FUNCTION
+
+	FUNCTION: getNumber() is excecuted
+		  Declaring int variables i, r
+		  Declaring int array num with a length of MAXNUMBER
+
+		  FOR LOOP: repeat body until statement is reached (i<MAXNUMBER)
+			    Initializing and Storing values in num[i] = rand()%MAXNUMBER
+		  END FOR LOOP
+		  Variable r gets any value from the array r = num[4]
+
+	END FUNCTION
+
+	FUNCTION: chooseNumber(int random) is excecuted
+		  Declaring int variable i
+		  PRINT "Guess a number"
+		  SCANF store value in i
+
+		  IF: statement is TRUE (i>=0&&i<=10)
+		      		CALL printStatement function and passing variables i and random
+     		      		END IF STATEMENT
+
+		  ELSE :
+			 PRINT "Sorry wron input"
+			 END ELSE STATEMENT
+
+	END FUNCTION
+
+	FUNCTION: printStatement(int x, int rand) is executed 
+
+		  IF: statement is TRUE (x!=rand)
+			IF : statement is TRUE (x<rand)
+		      		PRINT "The correct number is bigger"
+     		      		END IF STATEMENT
+			ELSE:
+				PRINT "The correct number is smaller"
+				END IF STATEMENT
+
+		  ELSE :
+			 PRINT "Well done"
+			 END ELSE STATEMENT
+	END FUNCTION	
+END PROGRAM

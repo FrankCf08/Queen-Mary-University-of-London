@@ -1,0 +1,17 @@
+week4 - Lab3
+Program 3 : Shapes of Triangle-main
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing library #include "shapes.h"
+	DECLARE - Global char variable c ='*'
+	
+	MAIN -  Declaring main int function
+		Declaring and Initializing int variable size =5
+		CALL function topTriangle(size,c)
+		CALL function square(size,c)
+		CALL function bottomTriangle(size,c)
+		RETURN
+
+END PROGRAM

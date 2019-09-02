@@ -1,0 +1,48 @@
+week4 - Lab3
+Program 2 : Simple calculator
+
+START PROGRAM
+
+	INCLUDE - Importing standard input/outp library #include <stdio.h>
+	INCLUDE - Importing library to use rand() function #include <stdio.h>
+	DEFINE - SUM(x,y)(x+y)
+	DEFINE - SUB(x,y)(x-y)
+	DEFINE - MULTX(x,y)(x*y) Declaring the MACROS to be use in the program
+	DEFINE - DIV(x,y)(x/y)
+
+	PROTOTYPE FUNCTIONS - declaring them before main getValues
+	
+	MAIN -  Declaring main int function
+		CALL function getValues()
+		RETURN
+		
+	FUNCTION: getValues() is executed
+		  Declaring int variables i, j
+	 	  Declaring char variable op
+		  PRINT "Enter operation  + example"
+		  SCANF operation : int(i) character(op) int(j) 
+		
+		  IF: statement is TRUE (op == '+')
+		      PRINT "The SUN of i and j and is" and execute MACRO SUM
+     		      END IF STATEMENT
+
+		  ELSE IF: statement is TRUE (op == '-')
+		      	   PRINT "The SUBTRACTION of i and j and is" and execute MACRO SUB
+     		      	   END IF STATEMENT
+
+		  ELSE IF: statement is TRUE (op == '*')
+		      	   PRINT "The  MULTIPLICATION of i and j and is" and execute MACRO MULTX
+     		           END IF STATEMENT
+
+		  ELSE IF: statement is TRUE (op == '/')
+		      	   PRINT "The DIVISION of i and j and is" and execute MACRO DIV
+     		      	   END IF STATEMENT
+
+		  ELSE :
+			 PRINT "Sorry wron input"
+			 CALL getValues() fucntion - recursion
+			 END ELSE STATEMENT
+
+	END FUNCTION
+
+END PROGRAM
