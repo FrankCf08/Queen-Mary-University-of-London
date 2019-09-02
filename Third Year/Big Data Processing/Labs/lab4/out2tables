@@ -1,0 +1,344 @@
+["Basic Industries", "1983"]	2000.0
+["Basic Industries", "1984"]	14600.0
+["Basic Industries", "1985"]	22600.0
+["Basic Industries", "1986"]	150100.0
+["Basic Industries", "1987"]	1623100.0
+["Basic Industries", "1988"]	308400.0
+["Basic Industries", "1989"]	626300.0
+["Basic Industries", "1990"]	378400.0
+["Basic Industries", "1991"]	612500.0
+["Basic Industries", "1992"]	1093600.0
+["Basic Industries", "1993"]	2007900.0
+["Basic Industries", "1994"]	2233900.0
+["Basic Industries", "1995"]	1375400.0
+["Basic Industries", "1996"]	2079500.0
+["Basic Industries", "1997"]	4594500.0
+["Basic Industries", "1998"]	5620000.0
+["Basic Industries", "1999"]	7696700.0
+["Basic Industries", "2000"]	7466200.0
+["Basic Industries", "2001"]	7799000.0
+["Basic Industries", "2002"]	14320700.0
+["Basic Industries", "2003"]	16106800.0
+["Basic Industries", "2004"]	18749300.0
+["Basic Industries", "2005"]	42596800.0
+["Basic Industries", "2006"]	45333600.0
+["Basic Industries", "2007"]	55867600.0
+["Basic Industries", "2008"]	52765000.0
+["Basic Industries", "2009"]	87909700.0
+["Basic Industries", "2010"]	9569900.0
+["Capital Goods", "1984"]	67800.0
+["Capital Goods", "1985"]	367100.0
+["Capital Goods", "1986"]	955500.0
+["Capital Goods", "1987"]	4921900.0
+["Capital Goods", "1988"]	1146500.0
+["Capital Goods", "1989"]	5480800.0
+["Capital Goods", "1990"]	4716900.0
+["Capital Goods", "1991"]	4119700.0
+["Capital Goods", "1992"]	15152600.0
+["Capital Goods", "1993"]	22239500.0
+["Capital Goods", "1994"]	18935700.0
+["Capital Goods", "1995"]	30586200.0
+["Capital Goods", "1996"]	31618500.0
+["Capital Goods", "1997"]	31954800.0
+["Capital Goods", "1998"]	29102500.0
+["Capital Goods", "1999"]	30620000.0
+["Capital Goods", "2000"]	61052500.0
+["Capital Goods", "2001"]	97750500.0
+["Capital Goods", "2002"]	83100600.0
+["Capital Goods", "2003"]	89323500.0
+["Capital Goods", "2004"]	93987200.0
+["Capital Goods", "2005"]	92317000.0
+["Capital Goods", "2006"]	111710500.0
+["Capital Goods", "2007"]	124959900.0
+["Capital Goods", "2008"]	141680000.0
+["Capital Goods", "2009"]	115439300.0
+["Capital Goods", "2010"]	9059100.0
+["Consumer Durables", "1984"]	20800.0
+["Consumer Durables", "1985"]	704800.0
+["Consumer Durables", "1986"]	214900.0
+["Consumer Durables", "1987"]	731100.0
+["Consumer Durables", "1988"]	791900.0
+["Consumer Durables", "1989"]	1115800.0
+["Consumer Durables", "1990"]	9099800.0
+["Consumer Durables", "1991"]	9448600.0
+["Consumer Durables", "1992"]	9502900.0
+["Consumer Durables", "1993"]	18628200.0
+["Consumer Durables", "1994"]	18310500.0
+["Consumer Durables", "1995"]	17308300.0
+["Consumer Durables", "1996"]	15860100.0
+["Consumer Durables", "1997"]	40007800.0
+["Consumer Durables", "1998"]	28413900.0
+["Consumer Durables", "1999"]	26226900.0
+["Consumer Durables", "2000"]	51010700.0
+["Consumer Durables", "2001"]	56552400.0
+["Consumer Durables", "2002"]	106726700.0
+["Consumer Durables", "2003"]	86591100.0
+["Consumer Durables", "2004"]	121672600.0
+["Consumer Durables", "2005"]	166028800.0
+["Consumer Durables", "2006"]	144746100.0
+["Consumer Durables", "2007"]	247325800.0
+["Consumer Durables", "2008"]	223503200.0
+["Consumer Durables", "2009"]	269595100.0
+["Consumer Durables", "2010"]	30912800.0
+["Consumer Non-Durables", "1982"]	1443600.0
+["Consumer Non-Durables", "1983"]	1084000.0
+["Consumer Non-Durables", "1984"]	2355000.0
+["Consumer Non-Durables", "1985"]	3925900.0
+["Consumer Non-Durables", "1986"]	1830000.0
+["Consumer Non-Durables", "1987"]	4090900.0
+["Consumer Non-Durables", "1988"]	3191800.0
+["Consumer Non-Durables", "1989"]	4867600.0
+["Consumer Non-Durables", "1990"]	8313700.0
+["Consumer Non-Durables", "1991"]	6777200.0
+["Consumer Non-Durables", "1992"]	5921100.0
+["Consumer Non-Durables", "1993"]	4228700.0
+["Consumer Non-Durables", "1994"]	9693700.0
+["Consumer Non-Durables", "1995"]	9746900.0
+["Consumer Non-Durables", "1996"]	12063200.0
+["Consumer Non-Durables", "1997"]	11937200.0
+["Consumer Non-Durables", "1998"]	27972600.0
+["Consumer Non-Durables", "1999"]	16362800.0
+["Consumer Non-Durables", "2000"]	18164000.0
+["Consumer Non-Durables", "2001"]	26813300.0
+["Consumer Non-Durables", "2002"]	30774000.0
+["Consumer Non-Durables", "2003"]	23755800.0
+["Consumer Non-Durables", "2004"]	38266600.0
+["Consumer Non-Durables", "2005"]	32719200.0
+["Consumer Non-Durables", "2006"]	39419600.0
+["Consumer Non-Durables", "2007"]	72441000.0
+["Consumer Non-Durables", "2008"]	74682700.0
+["Consumer Non-Durables", "2009"]	71922300.0
+["Consumer Non-Durables", "2010"]	7605600.0
+["Consumer Services", "1984"]	341000.0
+["Consumer Services", "1985"]	385700.0
+["Consumer Services", "1986"]	2041100.0
+["Consumer Services", "1987"]	6588700.0
+["Consumer Services", "1988"]	8663100.0
+["Consumer Services", "1989"]	6210200.0
+["Consumer Services", "1990"]	35054700.0
+["Consumer Services", "1991"]	44507500.0
+["Consumer Services", "1992"]	38290200.0
+["Consumer Services", "1993"]	91776700.0
+["Consumer Services", "1994"]	51709100.0
+["Consumer Services", "1995"]	90528300.0
+["Consumer Services", "1996"]	71427000.0
+["Consumer Services", "1997"]	104155200.0
+["Consumer Services", "1998"]	234468300.0
+["Consumer Services", "1999"]	303766000.0
+["Consumer Services", "2000"]	199006200.0
+["Consumer Services", "2001"]	243962000.0
+["Consumer Services", "2002"]	216534100.0
+["Consumer Services", "2003"]	258728100.0
+["Consumer Services", "2004"]	428421200.0
+["Consumer Services", "2005"]	424004200.0
+["Consumer Services", "2006"]	357860300.0
+["Consumer Services", "2007"]	568613500.0
+["Consumer Services", "2008"]	601597600.0
+["Consumer Services", "2009"]	766347700.0
+["Consumer Services", "2010"]	39054600.0
+["Energy", "1984"]	0.0
+["Energy", "1985"]	99600.0
+["Energy", "1986"]	40800.0
+["Energy", "1987"]	70000.0
+["Energy", "1988"]	80400.0
+["Energy", "1989"]	0.0
+["Energy", "1990"]	136400.0
+["Energy", "1991"]	339700.0
+["Energy", "1992"]	44600.0
+["Energy", "1993"]	244700.0
+["Energy", "1994"]	3900500.0
+["Energy", "1995"]	1264200.0
+["Energy", "1996"]	9127000.0
+["Energy", "1997"]	4400500.0
+["Energy", "1998"]	9312700.0
+["Energy", "1999"]	8492300.0
+["Energy", "2000"]	12136100.0
+["Energy", "2001"]	22945300.0
+["Energy", "2002"]	11003900.0
+["Energy", "2003"]	33261500.0
+["Energy", "2004"]	35151400.0
+["Energy", "2005"]	25853800.0
+["Energy", "2006"]	34538100.0
+["Energy", "2007"]	47845600.0
+["Energy", "2008"]	66230300.0
+["Energy", "2009"]	77092800.0
+["Energy", "2010"]	2287200.0
+["Finance", "1984"]	127600.0
+["Finance", "1985"]	399800.0
+["Finance", "1986"]	692200.0
+["Finance", "1987"]	724300.0
+["Finance", "1988"]	774600.0
+["Finance", "1989"]	694900.0
+["Finance", "1990"]	10435900.0
+["Finance", "1991"]	9020900.0
+["Finance", "1992"]	9954600.0
+["Finance", "1993"]	13650400.0
+["Finance", "1994"]	16751200.0
+["Finance", "1995"]	14080500.0
+["Finance", "1996"]	23101400.0
+["Finance", "1997"]	30792100.0
+["Finance", "1998"]	89321800.0
+["Finance", "1999"]	31059100.0
+["Finance", "2000"]	47215800.0
+["Finance", "2001"]	46110300.0
+["Finance", "2002"]	43986000.0
+["Finance", "2003"]	84427400.0
+["Finance", "2004"]	59812800.0
+["Finance", "2005"]	88323100.0
+["Finance", "2006"]	124763700.0
+["Finance", "2007"]	114275900.0
+["Finance", "2008"]	367642800.0
+["Finance", "2009"]	310560800.0
+["Finance", "2010"]	36642700.0
+["Health Care", "1985"]	522300.0
+["Health Care", "1986"]	1287500.0
+["Health Care", "1987"]	49220900.0
+["Health Care", "1988"]	28596300.0
+["Health Care", "1989"]	85713500.0
+["Health Care", "1990"]	11427600.0
+["Health Care", "1991"]	2579100.0
+["Health Care", "1992"]	43081600.0
+["Health Care", "1993"]	89893800.0
+["Health Care", "1994"]	51033200.0
+["Health Care", "1995"]	53313700.0
+["Health Care", "1996"]	54395000.0
+["Health Care", "1997"]	162457600.0
+["Health Care", "1998"]	65489100.0
+["Health Care", "1999"]	53339500.0
+["Health Care", "2000"]	73142800.0
+["Health Care", "2001"]	107716500.0
+["Health Care", "2002"]	109820200.0
+["Health Care", "2003"]	176358200.0
+["Health Care", "2004"]	194265500.0
+["Health Care", "2005"]	166450400.0
+["Health Care", "2006"]	215171100.0
+["Health Care", "2007"]	279901300.0
+["Health Care", "2008"]	212458300.0
+["Health Care", "2009"]	275869800.0
+["Health Care", "2010"]	25539800.0
+["Miscellaneous", "1985"]	39600.0
+["Miscellaneous", "1986"]	450000.0
+["Miscellaneous", "1987"]	722800.0
+["Miscellaneous", "1988"]	795400.0
+["Miscellaneous", "1989"]	684000.0
+["Miscellaneous", "1990"]	1237900.0
+["Miscellaneous", "1991"]	752300.0
+["Miscellaneous", "1992"]	1263000.0
+["Miscellaneous", "1993"]	1081700.0
+["Miscellaneous", "1994"]	3978600.0
+["Miscellaneous", "1995"]	4724500.0
+["Miscellaneous", "1996"]	3458200.0
+["Miscellaneous", "1997"]	2426200.0
+["Miscellaneous", "1998"]	78234500.0
+["Miscellaneous", "1999"]	119743700.0
+["Miscellaneous", "2000"]	51165100.0
+["Miscellaneous", "2001"]	81201000.0
+["Miscellaneous", "2002"]	88152600.0
+["Miscellaneous", "2003"]	130448400.0
+["Miscellaneous", "2004"]	102383600.0
+["Miscellaneous", "2005"]	116575600.0
+["Miscellaneous", "2006"]	81592700.0
+["Miscellaneous", "2007"]	92869400.0
+["Miscellaneous", "2008"]	35424400.0
+["Miscellaneous", "2009"]	72463800.0
+["Miscellaneous", "2010"]	3993500.0
+["Public Utilities", "1986"]	4600.0
+["Public Utilities", "1987"]	11400.0
+["Public Utilities", "1988"]	9200.0
+["Public Utilities", "1989"]	9791700.0
+["Public Utilities", "1990"]	6199900.0
+["Public Utilities", "1991"]	4961400.0
+["Public Utilities", "1992"]	16250400.0
+["Public Utilities", "1993"]	3106000.0
+["Public Utilities", "1994"]	22517400.0
+["Public Utilities", "1995"]	34183100.0
+["Public Utilities", "1996"]	14456300.0
+["Public Utilities", "1997"]	43497000.0
+["Public Utilities", "1998"]	34158300.0
+["Public Utilities", "1999"]	73304600.0
+["Public Utilities", "2000"]	26464400.0
+["Public Utilities", "2001"]	44569100.0
+["Public Utilities", "2002"]	37032300.0
+["Public Utilities", "2003"]	52479400.0
+["Public Utilities", "2004"]	35969000.0
+["Public Utilities", "2005"]	72727000.0
+["Public Utilities", "2006"]	72668900.0
+["Public Utilities", "2007"]	83080000.0
+["Public Utilities", "2008"]	112834100.0
+["Public Utilities", "2009"]	79384800.0
+["Public Utilities", "2010"]	6075200.0
+["Technology", "1984"]	3977600.0
+["Technology", "1985"]	67961300.0
+["Technology", "1986"]	101949900.0
+["Technology", "1987"]	505738900.0
+["Technology", "1988"]	384274100.0
+["Technology", "1989"]	498085300.0
+["Technology", "1990"]	916125600.0
+["Technology", "1991"]	915600100.0
+["Technology", "1992"]	1088125800.0
+["Technology", "1993"]	1019456800.0
+["Technology", "1994"]	1336956200.0
+["Technology", "1995"]	1752477600.0
+["Technology", "1996"]	1555767700.0
+["Technology", "1997"]	1528477400.0
+["Technology", "1998"]	1475568500.0
+["Technology", "1999"]	1572675800.0
+["Technology", "2000"]	1372117400.0
+["Technology", "2001"]	1873570200.0
+["Technology", "2002"]	2248519700.0
+["Technology", "2003"]	1926174300.0
+["Technology", "2004"]	1960307400.0
+["Technology", "2005"]	1962607900.0
+["Technology", "2006"]	2178151700.0
+["Technology", "2007"]	2057943600.0
+["Technology", "2008"]	2402610700.0
+["Technology", "2009"]	2434795900.0
+["Technology", "2010"]	264509200.0
+["Transportation", "1984"]	0.0
+["Transportation", "1985"]	0.0
+["Transportation", "1986"]	169000.0
+["Transportation", "1987"]	969500.0
+["Transportation", "1988"]	211800.0
+["Transportation", "1989"]	71800.0
+["Transportation", "1990"]	1495500.0
+["Transportation", "1991"]	4782200.0
+["Transportation", "1992"]	2511000.0
+["Transportation", "1993"]	3975500.0
+["Transportation", "1994"]	5697000.0
+["Transportation", "1995"]	6965700.0
+["Transportation", "1996"]	4010300.0
+["Transportation", "1997"]	7348000.0
+["Transportation", "1998"]	8848200.0
+["Transportation", "1999"]	10424300.0
+["Transportation", "2000"]	7211300.0
+["Transportation", "2001"]	9974500.0
+["Transportation", "2002"]	15446700.0
+["Transportation", "2003"]	25414700.0
+["Transportation", "2004"]	31525000.0
+["Transportation", "2005"]	57271600.0
+["Transportation", "2006"]	43381300.0
+["Transportation", "2007"]	101177700.0
+["Transportation", "2008"]	65458300.0
+["Transportation", "2009"]	137171000.0
+["Transportation", "2010"]	3802600.0
+["n/a", "1990"]	47300.0
+["n/a", "1991"]	122100.0
+["n/a", "1992"]	276100.0
+["n/a", "1993"]	404800.0
+["n/a", "1994"]	225000.0
+["n/a", "1995"]	296300.0
+["n/a", "1996"]	138600.0
+["n/a", "1997"]	229300.0
+["n/a", "1998"]	195600.0
+["n/a", "1999"]	309100.0
+["n/a", "2000"]	265200.0
+["n/a", "2001"]	1411900.0
+["n/a", "2002"]	2781400.0
+["n/a", "2003"]	4225900.0
+["n/a", "2004"]	9211800.0
+["n/a", "2005"]	6776900.0
+["n/a", "2006"]	15164600.0
+["n/a", "2007"]	35269200.0
+["n/a", "2008"]	29189100.0
+["n/a", "2009"]	50404000.0
+["n/a", "2010"]	3307000.0
