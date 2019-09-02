@@ -1,0 +1,272 @@
+{
+  "bodies": {
+    "body": [
+      {
+        "name": "Standard Kart",
+        "speed": {
+          "land": 0,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0
+        },
+        "accel": 0,
+        "weight": 0,
+        "handling": {
+          "land": 0,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0
+        },
+        "traction": 0,
+        "M-turbo": 0
+      },
+      {
+        "name": "Pipe Frame",
+        "speed": {
+          "land": -0.5,
+          "anti-g": -0.5,
+          "water": 0,
+          "air": -0.5
+        },
+        "accel": 0.5,
+        "weight": -0.25,
+        "handling": {
+          "land": 0.5,
+          "anti-g": 0.25,
+          "water": 0.5,
+          "air": -0.25
+        },
+        "traction": 0.25,
+        "M-turbo": 0.5
+      },
+      {
+        "name": "Mach 8",
+        "speed": {
+          "land": 0,
+          "anti-g": 0.5,
+          "water": 0,
+          "air": 0.25
+        },
+        "accel": -0.25,
+        "weight": 0.25,
+        "handling": {
+          "land": -0.25,
+          "anti-g": 0.25,
+          "water": 0,
+          "air": -0.25
+        },
+        "traction": 0.25,
+        "M-turbo": 0
+      },
+      {
+        "name": "Steel Driver",
+        "speed": {
+          "land": 0.25,
+          "anti-g": -0.25,
+          "water": 0.5,
+          "air": -0.75
+        },
+        "accel": -0.75,
+        "weight": 0.5,
+        "handling": {
+          "land": -0.5,
+          "anti-g": -0.5,
+          "water": 0.75,
+          "air": -0.5
+        },
+        "traction": 0,
+        "M-turbo": -0.5
+      },
+      {
+        "name": "Cat Cruiser",
+        "speed": {
+          "land": -0.25,
+          "anti-g": 0,
+          "water": -0.25,
+          "air": 0.25
+        },
+        "accel": 0.25,
+        "weight": 0,
+        "handling": {
+          "land": 0.25,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0.25
+        },
+        "traction": 0,
+        "M-turbo": 0.25
+      },
+      {
+        "name": "Circuit Special",
+        "speed": {
+          "land": 0.5,
+          "anti-g": 0.25,
+          "water": -0.5,
+          "air": -0.25
+        },
+        "accel": -0.75,
+        "weight": 0.25,
+        "handling": {
+          "land": -0.5,
+          "anti-g": -0.25,
+          "water": -0.25,
+          "air": -0.75
+        },
+        "traction": -0.5,
+        "M-turbo": -0.75
+      },
+      {
+        "name": "Badwagon",
+        "speed": {
+          "land": 0.5,
+          "anti-g": 0,
+          "water": -0.25,
+          "air": -0.5
+        },
+        "accel": -1,
+        "weight": 0.5,
+        "handling": {
+          "land": -0.75,
+          "anti-g": -0.5,
+          "water": -0.25,
+          "air": -0.75
+        },
+        "traction": 0.5,
+        "M-turbo": -1
+      },
+      {
+        "name": "Prancer",
+        "speed": {
+          "land": 0.25,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0
+        },
+        "accel": -0.5,
+        "weight": -0.25,
+        "handling": {
+          "land": 0,
+          "anti-g": -0.25,
+          "water": 0.25,
+          "air": 0
+        },
+        "traction": -0.25,
+        "M-turbo": -0.25
+      },
+      {
+        "name": "Biddybuggy",
+        "speed": {
+          "land": -0.75,
+          "anti-g": -0.25,
+          "water": -0.5,
+          "air": -0.5
+        },
+        "accel": 0.75,
+        "weight": -0.5,
+        "handling": {
+          "land": 0.5,
+          "anti-g": 0.5,
+          "water": 0.5,
+          "air": 0.25
+        },
+        "traction": 0.25,
+        "M-turbo": 0.75
+      },
+      {
+        "name": "Landship",
+        "speed": {
+          "land": -0.5,
+          "anti-g": -0.75,
+          "water": 0.5,
+          "air": -0.25
+        },
+        "accel": 0.5,
+        "weight": -0.5,
+        "handling": {
+          "land": 0.25,
+          "anti-g": -0.25,
+          "water": 0.75,
+          "air": 0
+        },
+        "traction": 0.75,
+        "M-turbo": 0.5
+      },
+      {
+        "name": "Sneeker",
+        "speed": {
+          "land": 0.25,
+          "anti-g": 0,
+          "water": -0.25,
+          "air": 0
+        },
+        "accel": -0.5,
+        "weight": 0,
+        "handling": {
+          "land": 0,
+          "anti-g": 0,
+          "water": 0,
+          "air": -0.25
+        },
+        "traction": -0.75,
+        "M-turbo": -0.25
+      },
+      {
+        "name": "W 25 Silver Arrow",
+        "speed": {
+          "land": -0.25,
+          "anti-g": 0.25,
+          "water": -0.25,
+          "air": 0
+        },
+        "accel": 0.25,
+        "weight": -0.25,
+        "handling": {
+          "land": 0.25,
+          "anti-g": 0.25,
+          "water": 0.25,
+          "air": 0
+        },
+        "traction": 0.5,
+        "M-turbo": 0.25
+      },
+      {
+        "name": "Blue Falcon",
+        "speed": {
+          "land": 0.25,
+          "anti-g": 0.25,
+          "water": -0.25,
+          "air": 0
+        },
+        "accel": -0.25,
+        "weight": -0.5,
+        "handling": {
+          "land": -0.25,
+          "anti-g": 0.5,
+          "water": 0.25,
+          "air": -0.5
+        },
+        "traction": 0,
+        "M-turbo": -0.25
+      },
+      {
+        "name": "Tanooki Kart",
+        "speed": {
+          "land": -0.25,
+          "anti-g": 0,
+          "water": 0.25,
+          "air": 0
+        },
+        "accel": -0.5,
+        "weight": 0.25,
+        "handling": {
+          "land": 0.25,
+          "anti-g": 0,
+          "water": 0.5,
+          "air": 0
+        },
+        "traction": 1,
+        "M-turbo": -0.25
+      }
+    ]
+  }
+}

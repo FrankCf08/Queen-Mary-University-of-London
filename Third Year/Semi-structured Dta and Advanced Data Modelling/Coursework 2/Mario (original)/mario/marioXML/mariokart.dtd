@@ -1,0 +1,47 @@
+<!ENTITY % stats "(name,speed,accel,weight,handling,traction,M-turbo)">
+<!ENTITY % terrain "(land,anti-g,water,air)">
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT speed %terrain;>
+<!ELEMENT accel (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT handling %terrain;>
+<!ELEMENT traction (#PCDATA)>
+<!ELEMENT M-turbo (#PCDATA)>
+
+<!ELEMENT land (#PCDATA)>
+<!ELEMENT anti-g (#PCDATA)>
+<!ELEMENT water (#PCDATA)>
+<!ELEMENT air (#PCDATA)>
+
+<!ELEMENT MARIOKART (characters,bodies, gliders,tires)>
+<!ATTLIST MARIOKART type CDATA #IMPLIED>
+
+<!ELEMENT characters (character+)>
+<!ATTLIST characters type CDATA #IMPLIED>
+<!ELEMENT character %stats;>
+<!ATTLIST character type CDATA #IMPLIED>
+
+<!ELEMENT bodies (body+)>
+<!ATTLIST bodies type CDATA #IMPLIED>
+<!ELEMENT body %stats;>
+<!ATTLIST body type CDATA #IMPLIED>
+
+<!ELEMENT gliders (glider+)>
+<!ATTLIST gliders type CDATA #IMPLIED>
+<!ELEMENT glider %stats;>
+<!ATTLIST glider type CDATA #IMPLIED>
+
+<!ELEMENT tires (tire+)>
+<!ATTLIST tires type CDATA #IMPLIED>
+<!ELEMENT tire %stats;>
+<!ATTLIST tire type CDATA #IMPLIED>
+
+
+
+
+
+
+
+
+

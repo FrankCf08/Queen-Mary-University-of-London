@@ -1,0 +1,15 @@
+<!ENTITY % stats "(name,speed,accel,weight,handling,traction,mturbo)">
+<!ENTITY % terrain "(land,anti-g,water,air)">
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT speed %terrain;>
+<!ELEMENT accel (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT handling %terrain;>
+<!ELEMENT traction (#PCDATA)>
+<!ELEMENT M-turbo (#PCDATA)>
+
+<!ELEMENT land (#PCDATA)>
+<!ELEMENT anti-g (#PCDATA)>
+<!ELEMENT water (#PCDATA)>
+<!ELEMENT air (#PCDATA)>

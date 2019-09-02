@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESULTS>
+   <result>
+      <tire>Standard</tire>
+      <body>Standard Kart</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Standard Kart</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Standard Kart</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Standard Kart</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Standard Kart</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Standard Kart</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Standard Kart</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Standard Kart</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Standard Kart</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Pipe Frame</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Pipe Frame</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Pipe Frame</body>
+      <speed>-1</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Pipe Frame</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Pipe Frame</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Pipe Frame</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Pipe Frame</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Pipe Frame</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Pipe Frame</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Mach 8</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Mach 8</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Mach 8</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Mach 8</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Mach 8</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Mach 8</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Mach 8</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Mach 8</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Mach 8</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Steel Driver</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Steel Driver</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Steel Driver</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Steel Driver</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Steel Driver</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Steel Driver</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Steel Driver</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Steel Driver</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Steel Driver</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Cat Cruiser</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Cat Cruiser</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Cat Cruiser</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Cat Cruiser</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Cat Cruiser</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Cat Cruiser</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Cat Cruiser</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Cat Cruiser</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Cat Cruiser</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Circuit Special</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Circuit Special</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Circuit Special</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Circuit Special</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Circuit Special</body>
+      <speed>1</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Circuit Special</body>
+      <speed>1</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Circuit Special</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Circuit Special</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Circuit Special</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Badwagon</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Badwagon</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Badwagon</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Badwagon</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Badwagon</body>
+      <speed>1</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Badwagon</body>
+      <speed>1</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Badwagon</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Badwagon</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Badwagon</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Prancer</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Prancer</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Prancer</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Prancer</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Prancer</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Prancer</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Prancer</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Prancer</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Prancer</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Biddybuggy</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Biddybuggy</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Biddybuggy</body>
+      <speed>-1.25</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Biddybuggy</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Biddybuggy</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Biddybuggy</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Biddybuggy</body>
+      <speed>-1</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Biddybuggy</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Biddybuggy</body>
+      <speed>-1</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Landship</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Landship</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Landship</body>
+      <speed>-1</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Landship</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Landship</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Landship</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Landship</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Landship</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Landship</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Sneeker</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Sneeker</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Sneeker</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Sneeker</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Sneeker</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Sneeker</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Sneeker</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Sneeker</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Sneeker</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>W 25 Silver Arrow</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Blue Falcon</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Blue Falcon</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Blue Falcon</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Blue Falcon</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Blue Falcon</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Blue Falcon</body>
+      <speed>0.75</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Blue Falcon</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Blue Falcon</body>
+      <speed>0.5</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Blue Falcon</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Standard</tire>
+      <body>Tanooki Kart</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Monster</tire>
+      <body>Tanooki Kart</body>
+      <speed>-0.25</speed>
+   </result>
+   <result>
+      <tire>Roller</tire>
+      <body>Tanooki Kart</body>
+      <speed>-0.75</speed>
+   </result>
+   <result>
+      <tire>Slim</tire>
+      <body>Tanooki Kart</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Slick</tire>
+      <body>Tanooki Kart</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Metal</tire>
+      <body>Tanooki Kart</body>
+      <speed>0.25</speed>
+   </result>
+   <result>
+      <tire>Button</tire>
+      <body>Tanooki Kart</body>
+      <speed>-0.5</speed>
+   </result>
+   <result>
+      <tire>Off-Road</tire>
+      <body>Tanooki Kart</body>
+      <speed>0</speed>
+   </result>
+   <result>
+      <tire>Sponge</tire>
+      <body>Tanooki Kart</body>
+      <speed>-0.5</speed>
+   </result>
+</RESULTS>

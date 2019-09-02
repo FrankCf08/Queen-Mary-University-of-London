@@ -1,0 +1,82 @@
+{
+  "gliders": {
+    "glider": [
+      {
+        "name": "Super Name",
+        "speed": {
+          "land": 0,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0
+        },
+        "accel": 0,
+        "weight": 0,
+        "handling": {
+          "land": 0,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0
+        },
+        "traction": 0,
+        "M-turbo": 0
+      },
+      {
+        "name": "Cloud Name",
+        "speed": {
+          "land": -0.25,
+          "anti-g": 0.25,
+          "water": 0,
+          "air": -0.25
+        },
+        "accel": 0.25,
+        "weight": -0.25,
+        "handling": {
+          "land": 0,
+          "anti-g": 0,
+          "water": 0,
+          "air": 0.25
+        },
+        "traction": 0,
+        "M-turbo": 0.25
+      },
+      {
+        "name": "Wario Wing",
+        "speed": {
+          "land": 0,
+          "anti-g": 0.25,
+          "water": -0.25,
+          "air": 0
+        },
+        "accel": 0,
+        "weight": 0.25,
+        "handling": {
+          "land": 0,
+          "anti-g": -0.25,
+          "water": 0.25,
+          "air": 0
+        },
+        "traction": -0.25,
+        "M-turbo": 0
+      },
+      {
+        "name": "Peach Parasol",
+        "speed": {
+          "land": -0.25,
+          "anti-g": 0.25,
+          "water": -0.25,
+          "air": -0.25
+        },
+        "accel": 0.25,
+        "weight": 0,
+        "handling": {
+          "land": 0,
+          "anti-g": -0.25,
+          "water": 0.25,
+          "air": 0.25
+        },
+        "traction": -0.25,
+        "M-turbo": 0.25
+      }
+    ]
+  }
+}

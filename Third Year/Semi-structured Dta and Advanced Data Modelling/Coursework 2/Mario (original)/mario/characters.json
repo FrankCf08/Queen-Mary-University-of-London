@@ -1,0 +1,310 @@
+{
+  "characters": {
+    "character": [
+      {
+        "name": "Baby Peach",
+        "speed": {
+          "land": 2.25,
+          "anti-g": 2,
+          "water": 2.5,
+          "air": 2.75
+        },
+        "accel": 4,
+        "weight": 2,
+        "handling": {
+          "land": 5,
+          "anti-g": 5,
+          "water": 4.5,
+          "air": 5
+        },
+        "traction": 4.25,
+        "M-turbo": 4
+      },
+      {
+        "name": "Baby Rosalina",
+        "speed": {
+          "land": 2.25,
+          "anti-g": 2,
+          "water": 2.5,
+          "air": 2.75
+        },
+        "accel": 4.25,
+        "weight": 2,
+        "handling": {
+          "land": 4.75,
+          "anti-g": 4.75,
+          "water": 4.25,
+          "air": 4.75
+        },
+        "traction": 3.75,
+        "M-turbo": 4
+      },
+      {
+        "name": "Baby Mario",
+        "speed": {
+          "land": 2.5,
+          "anti-g": 2.25,
+          "water": 2.75,
+          "air": 3
+        },
+        "accel": 4.25,
+        "weight": 2.25,
+        "handling": {
+          "land": 4.5,
+          "anti-g": 4.5,
+          "water": 4,
+          "air": 4.5
+        },
+        "traction": 4,
+        "M-turbo": 3.75
+      },
+      {
+        "name": "Toadette",
+        "speed": {
+          "land": 2.75,
+          "anti-g": 2.5,
+          "water": 3,
+          "air": 3.25
+        },
+        "accel": 4.25,
+        "weight": 2.5,
+        "handling": {
+          "land": 4.25,
+          "anti-g": 4.25,
+          "water": 3.75,
+          "air": 4.25
+        },
+        "traction": 3.5,
+        "M-turbo": 3.75
+      },
+      {
+        "name": "Koopa Troopa",
+        "speed": {
+          "land": 2.75,
+          "anti-g": 2.5,
+          "water": 3,
+          "air": 3.25
+        },
+        "accel": 4,
+        "weight": 2.5,
+        "handling": {
+          "land": 4.5,
+          "anti-g": 4.5,
+          "water": 4,
+          "air": 4.5
+        },
+        "traction": 4.25,
+        "M-turbo": 3.75
+      },
+      {
+        "name": "Toad",
+        "speed": {
+          "land": 3,
+          "anti-g": 2.75,
+          "water": 3.25,
+          "air": 3.5
+        },
+        "accel": 4,
+        "weight": 2.75,
+        "handling": {
+          "land": 4.25,
+          "anti-g": 4.25,
+          "water": 3.75,
+          "air": 4.25
+        },
+        "traction": 4,
+        "M-turbo": 3.5
+      },
+      {
+        "name": "Cat Peach",
+        "speed": {
+          "land": 3.25,
+          "anti-g": 3,
+          "water": 3.5,
+          "air": 3.75
+        },
+        "accel": 4,
+        "weight": 2.75,
+        "handling": {
+          "land": 4,
+          "anti-g": 4,
+          "water": 3.5,
+          "air": 4
+        },
+        "traction": 3.75,
+        "M-turbo": 3.5
+      },
+      {
+        "name": "Peach",
+        "speed": {
+          "land": 3.5,
+          "anti-g": 3.25,
+          "water": 3.75,
+          "air": 4
+        },
+        "accel": 3.75,
+        "weight": 3,
+        "handling": {
+          "land": 3.75,
+          "anti-g": 3.75,
+          "water": 3.25,
+          "air": 3.75
+        },
+        "traction": 3.75,
+        "M-turbo": 3.5
+      },
+      {
+        "name": "Tanooki Mario",
+        "speed": {
+          "land": 3.5,
+          "anti-g": 3.25,
+          "water": 3.75,
+          "air": 4
+        },
+        "accel": 3.75,
+        "weight": 3.25,
+        "handling": {
+          "land": 3.75,
+          "anti-g": 3.75,
+          "water": 3.25,
+          "air": 3.75
+        },
+        "traction": 3.25,
+        "M-turbo": 3.5
+      },
+      {
+        "name": "Mario",
+        "speed": {
+          "land": 3.75,
+          "anti-g": 3.5,
+          "water": 4,
+          "air": 4.25
+        },
+        "accel": 3.5,
+        "weight": 3.5,
+        "handling": {
+          "land": 3.5,
+          "anti-g": 3.5,
+          "water": 3,
+          "air": 3.5
+        },
+        "traction": 3.5,
+        "M-turbo": 3.25
+      },
+      {
+        "name": "Luigi",
+        "speed": {
+          "land": 3.75,
+          "anti-g": 3.5,
+          "water": 4,
+          "air": 4.25
+        },
+        "accel": 3.5,
+        "weight": 3.5,
+        "handling": {
+          "land": 3.75,
+          "anti-g": 3.75,
+          "water": 3.25,
+          "air": 3.75
+        },
+        "traction": 3.25,
+        "M-turbo": 3.25
+      },
+      {
+        "name": "Rosalina",
+        "speed": {
+          "land": 4,
+          "anti-g": 3.75,
+          "water": 4.25,
+          "air": 4.5
+        },
+        "accel": 3.25,
+        "weight": 3.75,
+        "handling": {
+          "land": 3.25,
+          "anti-g": 3.25,
+          "water": 2.75,
+          "air": 3.25
+        },
+        "traction": 3.75,
+        "M-turbo": 3.25
+      },
+      {
+        "name": "Metal Mario",
+        "speed": {
+          "land": 4.25,
+          "anti-g": 4,
+          "water": 4.5,
+          "air": 4.75
+        },
+        "accel": 3.25,
+        "weight": 4.5,
+        "handling": {
+          "land": 3.25,
+          "anti-g": 3.25,
+          "water": 2.75,
+          "air": 3.25
+        },
+        "traction": 3.25,
+        "M-turbo": 3
+      },
+      {
+        "name": "Waluigi",
+        "speed": {
+          "land": 4.5,
+          "anti-g": 4.25,
+          "water": 4.75,
+          "air": 5
+        },
+        "accel": 3.25,
+        "weight": 4,
+        "handling": {
+          "land": 3,
+          "anti-g": 3,
+          "water": 2.5,
+          "air": 3
+        },
+        "traction": 3,
+        "M-turbo": 3
+      },
+      {
+        "name": "Wario",
+        "speed": {
+          "land": 4.75,
+          "anti-g": 4.5,
+          "water": 5,
+          "air": 5.25
+        },
+        "accel": 3,
+        "weight": 4.25,
+        "handling": {
+          "land": 2.75,
+          "anti-g": 2.75,
+          "water": 2.25,
+          "air": 2.75
+        },
+        "traction": 3.25,
+        "M-turbo": 2.75
+      },
+      {
+        "name": "Bowser",
+        "speed": {
+          "land": 4.75,
+          "anti-g": 4.5,
+          "water": 5,
+          "air": 5.25
+        },
+        "accel": 3,
+        "weight": 4.5,
+        "handling": {
+          "land": 2.5,
+          "anti-g": 2.5,
+          "water": 2,
+          "air": 2.5
+        },
+        "traction": 3,
+        "M-turbo": 2.75
+      }
+    ]
+  }
+}
