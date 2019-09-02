@@ -1,0 +1,16 @@
+MILES	CITIES
+
+101	Worcester
+109	Dudley
+113	Wolverhampton
+128	Telford
+142	Grimsby
+147	Minehead
+153	Barnsley
+155	Kortrijk
+185	Aalst
+192	Plymouth
+213	Charleroi
+263	Ramsey
+289	Dublin
+289	Dublin
