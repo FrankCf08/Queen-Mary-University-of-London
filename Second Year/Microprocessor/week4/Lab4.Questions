@@ -1,0 +1,100 @@
+Translate this implementation into an 8051 program, using the basic frame provided as binary search.asm
+on QMPlus. Then answer the following questions:
+
+1. Provide your code:
+
+ORG 0
+
+MAIN:
+  	MOV DPTR, #ARRAY  ; Array 
+	CLR A ; setting A =0
+	MOV R6,#0
+	MOV R7,#5; setting R7 =5
+	MOV R0,#2; setting R0= 42
+	LCALL binary_search ; Calling binary_search function
+  	SJMP out; after finishing binary search leave and print out
+
+binary_search:
+	MOV B,#2 ;  setting B =2
+	MOV P3,R6 ; setting P3 =R6 --> P3 = 0
+	MOV A,R7 ; setting A = 5
+
+	CJNE A,P3, MID ; comparing if A==P3, if not GOES to MID; if Yes next line
+	MOV P1,#0; Setting P1 = 0
+	SJMP OUT ; leaving the function Binary search
+MID:
+	SUBB A, P3 ;Substracting A=A-P3=5-0=5
+	DIV AB; Dividing A=A/B=5/2=2
+	ADD A,P3; Adding A=A+P3=2+0=2
+	MOV R5,A ; Setting R5=A --> R5=2
+
+	MOVC A,@A+DPTR; Using my A value as the index of my Array --> A[2]=55
+	MOV P3,A;Setting P3 = A--> P3=55
+	SJMP IF1; Jump to IF1
+IF1:
+	MOV A,P3 ;Setting A=P3 --> A = 55
+	MOV P2,R0; Setting P2 =R0 --> P2 = 42
+	CJNE A,P2,CHECK ; comparing if A==P2 --> 55==42, if not GOES to CHECK; if Yes next line
+	MOV P1,#1 ; Setting P1 = 1
+	SJMP OUT; Jump out 
+
+CHECK:
+	JC ELSE ; Jump if Carry flag is set to ELSE function
+	SJMP ELSEIF ; Otherwise Short jump to ELSEIF
+ELSEIF:
+	MOV A,R5; Setting A = R5 --> A = 2
+	MOV R7,A; Setting R7 = A --> R7 = 2
+	SJMP binary_search  ; Recursion Function calling back Binary Search
+ELSE:
+	INC R5; INcrement R5 by 1--> R5=R5+1 --> R5 = 2+1=3
+	MOV A,R5; Setting A =R5 --> A=3
+	MOV R6,A; Setting R6 = A --> R6=3
+	SJMP binary_search ; Recursion Fucntion : calling back Binary Search
+	
+out: 	NOP
+ORG 300H
+ARRAY:
+  DB 2, 42, 55, 78, 100
+END
+
+
+2. Why is this an appropriate solution?
+
+It is because It uses binary search principles in order to find an element which in this case is located in the array "ARRAY". After terminating the search, it will display in the port P1 the value either 0, when the element to find is not in the array, or 1, when the element is found in the array. For instances, It was set all values in my MAIN label using some instructions such as MOV, CLR, LCALL, SJMP in order to set the ARRAY to use, VALUE(R0 = 42 as the number to find in the array), START( R6 = 0 as the start index of the array), END( R7 = 5 as the end index of the array "Array"), It was cleared the Accumulator A and use the LCALL in order to go to the next label binary_search. In my binary_search label, It is set the other Accumulator B (B=2), the port P3 getting the value of R6, using my Accumulator A to get the value of END(R7).When using -CJNE A,P3,MID- it is compared the two value stored in A and P3, if it not equal it will jump to MID label. IN the MID label, It will be calculated the middle value of the array and use it to find the value stored in there. Then, It is jumped to the IF1 label and using the values stored in A and P2, another comparizon is made to see if the values are equal between them and if they are not equal, it will go the CHECK label and detect if the Carry flag has been set on, othwerise it will go the next line, stores the value 1 in P1 and end the program by SJMP OUT. If it is set on, if it will go the ELSE label and increment my middle value by one and be stored in R6 and call the label binary_search back again by using recursion.   
+
+3. What is the maximum amount of stack space that the program will use?
+
+The nume of stacks used when running the program is 2 bytes because it is only used LCALL(long call) once and 2 bytes are pushed to the stack.
+ 
+/*It uses 2 bytes and the maximun number of stacks are 2 (0-7 bits and 7-15 bits )
+THe number of calls done when running my programm were 3 calls, which uses 6 bytes.Furthermore, I am not using Lcalls and only Jumps, it can be said that that the maximum number of stacks used are 2.*/
+
+5. Optional: The above implementation uses tail recursion. Why is this this beneficial? Hint:
+Consider a procedure that has further statements after a recursive call. What side effects
+might the recursive call have?
+
+Recursion is usuful in this cause to make a call to the label binary_search until a value is found or not found through out the array. However, values can be lost or modified.
+
+QUESTION 2
+
+(a) For the 8051 microcontroller, what is meant by the stack? State the default address range
+that is normally used for the stack and explain what problems could occur if too many
+items are pushed onto it.
+
+Stack is a temporary RAM storage of data or address, the cpu needs this storage areas since there are only a limited number of registers. The default address range is only 8 bits wide, which means that it can take values between 00 and FFH.
+
+Issues:
+	* we can run out of space
+	* THe stacks is allowed to grow to 1F, so It could also occupy space used by register banks 2 and 3.
+	* If more than 24 bits memory locations are requiered for the stack, SP can be set to 30 bits() MOV SP,#30H), as the locations 20 to 2F are bit addressable memomey are retained for other uses.
+
+(b) Explain what is meant by direct and indirect addressing. Give an example of each
+
+Direct Addressing: 
+			It is the instructions refering directly to the address being accessed. The instruction encoding itself contains the address of the location.
+		eg. MOV A, #5
+
+Indirect Addressing:
+			It uses an address held in a register or other location to determine what memory location to read or write.
+		eg. MOV R1, @R0
+

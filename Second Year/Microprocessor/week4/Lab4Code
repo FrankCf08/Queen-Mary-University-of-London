@@ -1,0 +1,53 @@
+ORG 0
+
+MAIN:
+  	MOV DPTR, #ARRAY  ; Array 
+	CLR A ; setting A =0
+	MOV R6,#0
+	MOV R7,#5; setting R7 =5
+	MOV R0,#2; setting R0= 42
+	LCALL binary_search ; Calling binary_search function
+  	SJMP out; after finishing binary search leave and print out
+
+binary_search:
+	MOV B,#2 ;  setting B =2
+	MOV P3,R6 ; setting P3 =R6 --> P3 = 0
+	MOV A,R7 ; setting A = 5
+
+	CJNE A,P3, MID ; comparing if A==P3, if not GOES to MID; if Yes next line
+	MOV P1,#0; Setting P1 = 0
+	SJMP OUT ; leaving the function Binary search
+MID:
+	SUBB A, P3 ;Substracting A=A-P3=5-0=5
+	DIV AB; Dividing A=A/B=5/2=2
+	ADD A,P3; Adding A=A+P3=2+0=2
+	MOV R5,A ; Setting R5=A --> R5=2
+
+	MOVC A,@A+DPTR; Using my A value as the index of my Array --> A[2]=55
+	MOV P3,A;Setting P3 = A--> P3=55
+	SJMP IF1; Jump to IF1
+IF1:
+	MOV A,P3 ;Setting A=P3 --> A = 55
+	MOV P2,R0; Setting P2 =R0 --> P2 = 42
+	CJNE A,P2,CHECK ; comparing if A==P2 --> 55==42, if not GOES to CHECK; if Yes next line
+	MOV P1,#1 ; Setting P1 = 1
+	SJMP OUT; Jump out 
+
+CHECK:
+	JC ELSE ; Jump if Carry flag is set to ELSE function
+	SJMP ELSEIF ; Otherwise Short jump to ELSEIF
+ELSEIF:
+	MOV A,R5; Setting A = R5 --> A = 2
+	MOV R7,A; Setting R7 = A --> R7 = 2
+	SJMP binary_search  ; Recursion Function calling back Binary Search
+ELSE:
+	INC R5; INcrement R5 by 1--> R5=R5+1 --> R5 = 2+1=3
+	MOV A,R5; Setting A =R5 --> A=3
+	MOV R6,A; Setting R6 = A --> R6=3
+	SJMP binary_search ; Recursion Fucntion : calling back Binary Search
+	
+out: 	NOP
+ORG 300H
+ARRAY:
+  DB 2, 42, 55, 78, 100
+END
