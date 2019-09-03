@@ -1,0 +1,103 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Mon Oct 22 16:59:29 2018
+;VERSION 0.2
+;FILE gpio.o
+__asm___6_gpio_c_3fbb5b1e____REV16 <= USED 0
+__asm___6_gpio_c_3fbb5b1e____REVSH <= USED 0
+blueLEDOnOff <= USED 0
+;FILE irq_cm0.o
+;FILE main.o
+__asm___6_main_c_0a192b74____REV16 <= USED 0
+__asm___6_main_c_0a192b74____REVSH <= USED 0
+;FILE os_systick.o
+OS_Tick_Disable <= USED 0
+OS_Tick_GetClock <= USED 0
+OS_Tick_GetCount <= USED 0
+OS_Tick_GetInterval <= USED 0
+OS_Tick_GetOverflow <= USED 0
+;FILE rtx_config.o
+__asm___12_RTX_Config_c____REV16 <= USED 0
+__asm___12_RTX_Config_c____REVSH <= USED 0
+;FILE rtx_delay.o
+osDelayUntil <= USED 0
+;FILE rtx_evflags.o
+osEventFlagsClear <= USED 0
+osEventFlagsDelete <= USED 0
+osEventFlagsGet <= USED 0
+osEventFlagsGetName <= USED 0
+;FILE rtx_kernel.o
+osKernelGetInfo <= USED 0
+osKernelGetState <= USED 0
+osKernelGetSysTimerCount <= USED 0
+osKernelGetSysTimerFreq <= USED 0
+osKernelGetTickFreq <= USED 0
+osKernelLock <= USED 0
+osKernelRestoreLock <= USED 0
+osKernelResume <= USED 0
+osKernelSuspend <= USED 0
+osKernelUnlock <= USED 0
+;FILE rtx_lib.o
+__asm___9_rtx_lib_c_7c080eb6____REV16 <= USED 0
+__asm___9_rtx_lib_c_7c080eb6____REVSH <= USED 0
+__user_perthread_libspace <= USED 0
+_mutex_acquire <= USED 0
+_mutex_free <= USED 0
+_mutex_initialize <= USED 0
+_mutex_release <= USED 0
+;FILE rtx_memory.o
+;FILE rtx_mempool.o
+osMemoryPoolAlloc <= USED 0
+osMemoryPoolDelete <= USED 0
+osMemoryPoolFree <= USED 0
+osMemoryPoolGetBlockSize <= USED 0
+osMemoryPoolGetCapacity <= USED 0
+osMemoryPoolGetCount <= USED 0
+osMemoryPoolGetName <= USED 0
+osMemoryPoolGetSpace <= USED 0
+osMemoryPoolNew <= USED 0
+;FILE rtx_msgqueue.o
+osMessageQueueDelete <= USED 0
+osMessageQueueGetCapacity <= USED 0
+osMessageQueueGetCount <= USED 0
+osMessageQueueGetMsgSize <= USED 0
+osMessageQueueGetName <= USED 0
+osMessageQueueGetSpace <= USED 0
+osMessageQueueReset <= USED 0
+;FILE rtx_mutex.o
+osMutexAcquire <= USED 0
+osMutexDelete <= USED 0
+osMutexGetName <= USED 0
+osMutexGetOwner <= USED 0
+osMutexNew <= USED 0
+osMutexRelease <= USED 0
+;FILE rtx_system.o
+;FILE rtx_thread.o
+osThreadDetach <= USED 0
+osThreadEnumerate <= USED 0
+osThreadFlagsClear <= USED 0
+osThreadFlagsGet <= USED 0
+osThreadFlagsSet <= USED 0
+osThreadFlagsWait <= USED 0
+osThreadGetCount <= USED 0
+osThreadGetId <= USED 0
+osThreadGetName <= USED 0
+osThreadGetPriority <= USED 0
+osThreadGetStackSize <= USED 0
+osThreadGetStackSpace <= USED 0
+osThreadGetState <= USED 0
+osThreadJoin <= USED 0
+osThreadResume <= USED 0
+osThreadSetPriority <= USED 0
+osThreadSuspend <= USED 0
+osThreadTerminate <= USED 0
+osThreadYield <= USED 0
+;FILE rtx_timer.o
+osTimerDelete <= USED 0
+osTimerGetName <= USED 0
+osTimerIsRunning <= USED 0
+osTimerNew <= USED 0
+osTimerStart <= USED 0
+osTimerStop <= USED 0
+;FILE startup_mkl25z4.o
+;FILE system_mkl25z4.o
+__asm___16_system_MKL25Z4_c_5d646a67____REV16 <= USED 0
+__asm___16_system_MKL25Z4_c_5d646a67____REVSH <= USED 0
