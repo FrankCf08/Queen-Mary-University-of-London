@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/FrankCf/Desktop/Frank Erasmo Cruz Felix - bt15585/libraries/jfreechart-1.0.19/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/FrankCf/Desktop/Frank Erasmo Cruz Felix - bt15585/libraries/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/FrankCf/Desktop/Frank Erasmo Cruz Felix - bt15585/libraries/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

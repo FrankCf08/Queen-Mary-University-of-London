@@ -1,0 +1,62 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JSplitPane;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+
+public class button {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					button window = new button();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public button() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 951, 501);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(0, 34, 432, 407);
+		frame.getContentPane().add(panel);
+		
+		JButton btnNewButton = new JButton("New button");
+		panel.add(btnNewButton);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBounds(0, 0, 432, 34);
+		frame.getContentPane().add(panel_1);
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBounds(489, 34, 432, 407);
+		frame.getContentPane().add(panel_2);
+		
+		JButton button = new JButton("New button");
+		panel_2.add(button);
+	}
+}
