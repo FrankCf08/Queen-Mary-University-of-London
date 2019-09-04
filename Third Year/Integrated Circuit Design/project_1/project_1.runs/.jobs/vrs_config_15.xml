@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Gray_Encoding" LaunchDir="C:/Users/FrankCf/Desktop/Integrated Circuit Coursework/project_1/project_1.runs/Gray_Encoding" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
