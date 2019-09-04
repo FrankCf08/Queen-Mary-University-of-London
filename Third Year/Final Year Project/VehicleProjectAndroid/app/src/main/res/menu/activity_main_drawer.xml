@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_update_my_location"
+            android:title="Update Position" />
+        <item
+            android:id="@+id/nav_set_alarm"
+            android:icon="@drawable/ic_set_alarm"
+            android:title="Set Alert" />
+        <item
+            android:id="@+id/nav_cancel_alarm"
+            android:icon="@drawable/ic_cancel_alarm"
+            android:title="Disable alert" />
+    </group>
+    <!--@android:drawable/ic_dialog_map-->
+</menu>
